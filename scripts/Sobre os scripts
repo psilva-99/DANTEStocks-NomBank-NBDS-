@@ -1,0 +1,28 @@
+# Sobre os scripts
+
+Este documento dá algumas informações importantes sobre os scripts conversor e auditor.
+
+## 1. O Conversor
+
+O conversor atua como o motor de fusão de dados. Ele pega os brutos de entrada (anotações linguísticas, papéis semânticos e Excel de modificadores) e os une no formato padronizado *CoNLL-U Plus*.
+
+### A. Desacoplamento e CLI (Linha de Comando)
+O script foi equipado com o módulo `argparse`. Ao ser executado, o script calcula dinamicamente a sua própria localização no disco e mapeia as pastas de trabalho (`data`, `output`, `logs`) com base nessa posição relativa. Ele também expõe parâmetros (`--json-dir`, `--output-dir`, etc.) para que o pesquisador possa customizar as pastas direto pelo terminal, caso queira.
+
+### B. Varredura Universal (`glob`)
+O script faz uma varredura cega (`glob.glob`) na pasta de entrada buscando tudo que termine em `.conllu`. Isso significa que ele processa quaisquer arquivos conllu que estiverem dentro da pasta de entrada.
+
+### C. Padronização Universal Dependencies
+O conversor exporta os dados gerados com a extensão UD de arquivos CoNLL-U Plus `.conllup`, facilitando a integração do seu dataset com outras ferramentas linguísticas globais.
+
+---
+
+## 2. O Auditor
+
+O auditor é a uma bateria de testes automatizada. Ele faz a engenharia reversa do arquivo `.conllup` gerado pelo conversor e o compara com os JSONs (fonte da verdade) em busca de inconsistências na conversão.
+
+### A. Integração com a Nova Estrutura CLI
+Assim como o conversor, o validador rastreia as pastas `data` e `output` dinamicamente pelo terminal, gerando logs sequenciais organizados na pasta `logs`.
+
+### B. Relatório de Discrepância Silenciosa
+O validador audita unicamente os dados presentes no JSON. Se uma palavra existir no CoNLL-U mas não no JSON, ele a ignora, garantindo uma taxa de acerto pautada na anotação puramente humana, culminando na validação livre de erros atual.
