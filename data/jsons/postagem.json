@@ -1,0 +1,64 @@
+{
+  "lemma": "postagem",
+  "lemma_base": "postagem",
+  "senses": [
+    {
+      "pt_roleset": "postagem.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "posting.01",
+      "english_roleset_source": "verb-post.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/posting.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "poster"
+        },
+        {
+          "id": "Arg1",
+          "desc": "posted"
+        },
+        {
+          "id": "Arg2",
+          "desc": "posted-to"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446696446884990976l",
+          "text": "Ótima postagem sobre #PETR4 por o usuário pridom em o fórum de a #ADVFN $PETR4 http:",
+          "realization": {
+            "Arg0": "usuário pridom",
+            "Arg1": "sobre #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

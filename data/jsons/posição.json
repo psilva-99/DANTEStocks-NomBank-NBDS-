@@ -1,0 +1,451 @@
+{
+  "lemma": "posição",
+  "lemma_base": "posição",
+  "senses": [
+    {
+      "pt_roleset": "posição.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "position.01",
+      "english_roleset_source": "verb-position.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/position.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "owner"
+        },
+        {
+          "id": "Arg1",
+          "desc": "quantified, located"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443747856852480000l",
+          "text": "@ferrisss @dfittarelli @HudsonPF Correção : Posição aberta #PETR3 E as duas PETR estão em destaque em a procura de D-1",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "aberta",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460807478603960320l",
+          "text": "GOLL4 . 40 zerando posição comprada . Errei a o digitar .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "zerando",
+            "Arg2": "comprada",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "root",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460857889209745410l",
+          "text": "@Live_Trade Marcos , o que você acha de compra em a petr4 para posição ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444567446595198976l",
+          "text": "Posições que ja alcançaram realização parcial , ajuste em os stops ! vale5 linda a venda ! hehe http://t.co/bAFgR9MAfV",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "que já alcançaram realização parcial",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456162896200728576l",
+          "text": "Quem mais comprou e vendeu PETR4 hoje ? Posição líquida . http://t.co/8QaAYruiG4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "líquida",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443757704147120128l",
+          "text": "#BBAS3.SA anunciou hoje #JSCP em a #BOVESPA . Hora de manter posição , cancelei minhas vendas .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441952556370374656l",
+          "text": "VALE5 tá muito barata . Mas eu não aumento posição perdedora . Vamos administrandoas opções . Encerrei VALED31 c/ lucro de $ 0,52 cada . Not bad ..",
+          "realization": {
+            "Arg0": "eu",
+            "Arg1": null,
+            "Arg2": "perdedora",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461504851550420992l",
+          "text": "@Marceloinacios só vou torcer pra não tirar essa posição de a PETR4 , hehehe ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_467340956761874432l",
+          "text": "Minhas posições : #alll3 stop 8,41 . #hype3 stop 17,69 . #mglu3 stop 8,23 . #bbas3 23,71 . #petr4 não sei oq fazer hehe . Bons negócios a todos .",
+          "realization": {
+            "Arg0": "minhas",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "det",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460855833405190144l",
+          "text": "#goau4 cruzou média móvel para subir , mas como andou de lado em os últimos dias , vou aguardar para formar posição . Pouco volume de movimento .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446711741431676928l",
+          "text": "Mercado subiu bem ontem e hoje , geou mudanças em nossas posições : stop em bvmf3 , ccro3 . RP em mrve3 . Posições com rp ja feita continua",
+          "realization": {
+            "Arg0": "nossas",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "det",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446711741431676928l",
+          "text": "Mercado subiu bem ontem e hoje , geou mudanças em nossas posições : stop em bvmf3 , ccro3 . RP em mrve3 . Posições com rp ja feita continua",
+          "realization": {
+            "Arg0": "nossas",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "det",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463775892947611648l",
+          "text": "#PCAR4 GRANDE INVESTIDOR PODE TER REDUZIDO POSIÇÃO ITAU hoje fez uma desova de quase 297 milhões de reais a o preço médio de 104,06 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "REDUZIDO",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "xcomp",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460807375470231553l",
+          "text": "GOLL4 . 40 zerando posição vendida . por o sim por o não , hora de colocar em o bolso .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "zerando",
+            "Arg2": "vendida",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "root",
+            "Arg2": "acl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443830052690882560l",
+          "text": "@DuctorMarcus 19,2 to saindo de o DT comprado 3hs de trade em o BBAS3 , mas to segurando uma posição em swing .",
+          "realization": {
+            "Arg0": "to",
+            "Arg1": "em swing",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "aux",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444509541783601152l",
+          "text": "Entramos em a compra para a posição de CSNA3 hoje a 9.60 . Estamos em o game .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de CSNA3 hoje a 9.60",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459001408889847809l",
+          "text": "De qualquer forma tento uma compra com posição menor , stop fundo de o dia #petr4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "menor",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445910580176515074l",
+          "text": "Após cair 25 % em o ano , Petrobras perde posição em o Ibovespa e é ultrapassada por o Itaú : As açõ ... http://t.co/NEq1D1xgzM #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em o ibovespa",
+            "Arg2": "perde",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "root",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449629179051790336l",
+          "text": "@Live_Trade eu to cagando de medo de essa #PETR4 ! ! ! to com posição grnade desde o rompimento de os 14,20 dia 24/03 ! king kong adestrado por o PT",
+          "realization": {
+            "Arg0": "to",
+            "Arg1": null,
+            "Arg2": "grnade",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "aux",
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443741929025835008l",
+          "text": "#VALE5 lembram de aquele GAP que estou alertando desde AGOSTO , pois é ... foi fechado hoje . Agora fica menos perigoso posição em a VALE5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a VALE5",
+            "Arg2": "menos perigoso",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450985846620319745l",
+          "text": "Bom , blz , stops ligados em as posições compradas ( ITUB4 , BBDC4 e BVMF3 ) . Lucro em a mão . Para o alto e avante , meninas ! Papai vai trabalhar !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "compradas",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441957109014732800l",
+          "text": "@Live_Trade ontem quase sai de a BRFS3 , mas o sistema ainda dava posição comprada ... vc realizou ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "comprada",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "amod": 10,
+          "acl": 1,
+          "root": 1
+        },
+        "Arg1": {
+          "root": 2,
+          "nmod": 5,
+          "xcomp": 1
+        },
+        "Arg0": {
+          "nsubj": 1,
+          "det": 3,
+          "aux": 2
+        }
+      }
+    }
+  ]
+}

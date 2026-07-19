@@ -1,0 +1,64 @@
+{
+  "lemma": "transferência",
+  "lemma_base": "transferência",
+  "senses": [
+    {
+      "pt_roleset": "transferência.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "transfer.01",
+      "english_roleset_source": "verb-transfer.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/transfer.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "recipient"
+        },
+        {
+          "id": "Arg3",
+          "desc": "source"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468734838485561344l",
+          "text": "Empresas de pagamento e tranf. de recursos terão grandes desafios em os próximos anos ... @chrinvestor Abre o olho #CIEL3",
+          "realization": {
+            "Arg0": "Empresas de pagamento e tranf.",
+            "Arg1": "de recursos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

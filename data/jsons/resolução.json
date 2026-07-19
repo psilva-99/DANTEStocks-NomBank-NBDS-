@@ -1,0 +1,64 @@
+{
+  "lemma": "resolução",
+  "lemma_base": "resolução",
+  "senses": [
+    {
+      "pt_roleset": "resolução.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "resolution.01",
+      "english_roleset_source": "verb-resolve.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/resolution.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "instrument"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_454587433800458240l",
+          "text": "$SBSP3 - Sabesp ( sbsp-nm ) - Negociacao Com A Emae Para Resolucao De Acoes http://t.co/D192xgQFKV",
+          "realization": {
+            "Arg0": "Sabesp ( sbsp-nm )",
+            "Arg1": "De Acoes",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

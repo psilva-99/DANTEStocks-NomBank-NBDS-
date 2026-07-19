@@ -1,0 +1,64 @@
+{
+  "lemma": "obrigação",
+  "lemma_base": "obrigação",
+  "senses": [
+    {
+      "pt_roleset": "obrigação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "obligation.01",
+      "english_roleset_source": "verb-oblige.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/obligation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "obligated"
+        },
+        {
+          "id": "Arg2",
+          "desc": "obligation"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_455744272138907648l",
+          "text": "Quem tem acoes de a Petrobras Petr4 tem obrigacao de fazer campanha contra Dilma e PT que destruíram mais de 50 % de o valor de a empresa",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Quem tem acoes de a Petrobras Petr4",
+            "Arg2": "de fazer campanha contra Dilma e PT",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lemma": "volta",
+  "lemma_base": "volta",
+  "senses": [
+    {
+      "pt_roleset": "volta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "return.01",
+      "english_roleset_source": "verb-return.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/return.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "entity in motion"
+        },
+        {
+          "id": "Arg2",
+          "desc": "extent - - rare"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start point"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end point"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_458580699046367233l",
+          "text": "De olho em a volta de o feriado : Vale caiu mais de 2 % em a NYSE : Em esta sessão , o o mercado deve fi ... http://t.co/7ABoXOqTHu #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "de o feriado",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg3": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

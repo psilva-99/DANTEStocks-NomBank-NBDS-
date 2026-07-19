@@ -1,0 +1,61 @@
+{
+  "lemma": "pagador",
+  "lemma_base": "pagador",
+  "senses": [
+    {
+      "pt_roleset": "pagador.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "payer.01",
+      "english_roleset_source": "verb-pay.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/payer.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "payer or buyer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "money or attention"
+        },
+        {
+          "id": "Arg2",
+          "desc": "person being paid"
+        },
+        {
+          "id": "Arg3",
+          "desc": "commodity"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_444516832053972992l",
+          "text": "Conheça as melhores pagadoras de dividendos para comprar em março : As ações de a Telefônica Br ... http://t.co/HUzJCJKZRA #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "de dividendos para comprar em março",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "obl",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg3": {
+          "obl": 1
+        }
+      }
+    }
+  ]
+}

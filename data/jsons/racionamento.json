@@ -1,0 +1,175 @@
+{
+  "lemma": "racionamento",
+  "lemma_base": "racionamento",
+  "senses": [
+    {
+      "pt_roleset": "racionamento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "shortage.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/shortage.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, limiter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "limit"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_466606458487209984l",
+          "text": "#SBSP3 E cadê o racionamento ! ! ! http://t.co/ApULfZt5Sr",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441915242063224833l",
+          "text": "Sabesp faz manobra para evitar racionamento , Vale e mais 3 estão em o radar : Ainda entre os de ... http://t.co/3dIZzbmqGA #infomoney #vale5",
+          "realization": {
+            "Arg0": "Sabesp",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455700825927872512l",
+          "text": "RT @chrinvestor : Com o provável racionamento de água em SP , atualmente investir em a Sabesp representa um risco elevado . #SBSP3 - 23 % em 2014 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de água",
+            "Arg2": null,
+            "Arg3": "em SP",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444448840863997952l",
+          "text": "A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritário ! ! ! #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444449194305409024l",
+          "text": "RT @chrinvestor : A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritá …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442003384850468864l",
+          "text": "#SBSP3 imagina a rapaziada em o ônibus em São Paulo com racionamento de água ! ! ! PQP ! ! ! vai feder ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de água",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455700682084204544l",
+          "text": "Com o provável racionamento de água em #SP , atualmente #investir em a #Sabesp representa um risco elevado . #SBSP3 - 23 % em 2014 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de água",
+            "Arg2": null,
+            "Arg3": "em #SP",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 3
+        },
+        "Arg3": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

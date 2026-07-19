@@ -1,0 +1,252 @@
+{
+  "lemma": "relação",
+  "lemma_base": "relação",
+  "senses": [
+    {
+      "pt_roleset": "relação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "relation.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/relation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "job title"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_470217964974006272l",
+          "text": "#OIL #BR #PETR4 Petrobras tem sido tímida em relação a a China , diz representante de a estatal . http://t.co/V0jkZVtNW0 #CRUDE",
+          "realization": {
+            "Arg0": "Petrobras",
+            "Arg1": null,
+            "Arg2": "China",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459290258207965184l",
+          "text": "Lucro Líquido Ajustado de o 1T14 foi de R$ 3,473 bilhões ( + 18 % em relação a o Lucro de R$ 2,943 bilhões em o mesmo período de 2013 ) #BBDC4",
+          "realization": {
+            "Arg0": "+ 18 % em relação",
+            "Arg1": "Lucro de",
+            "Arg2": "R$ 2,943 bilhões em o mesmo período de 2013",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "case",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459035481196724225l",
+          "text": "CSN #CSNA3 A cia e o consórcio asiático sócio de a Namisa estão próximos de um consenso em relação a o investimento ... http://t.co/NggvIdgl3I",
+          "realization": {
+            "Arg0": "CSN #CSNA3 A cia",
+            "Arg1": "a o investimento",
+            "Arg2": "o consórcio asiático sócio de a Namisa",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459291976241016832l",
+          "text": "RT @bradesco_ri : Lucro Líquido Ajustado de o 1T14 foi de R$ 3,473 bilhões ( + 18 % em relação a o Lucro de R$ 2,943 bilhões em o mesmo período d …",
+          "realization": {
+            "Arg0": "+ 18 % em relação",
+            "Arg1": "Lucro de",
+            "Arg2": "R$ 2,943 bilhões em o mesmo período de 2013",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "case",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448892502079463425l",
+          "text": "@webtraderx p13 ? Você compra caso acredite que vá cair . Vende se acha que vai subir . Tudo sempre em relação a a PETR4 ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "a a PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443015427728228352l",
+          "text": "#VALE5 : O preço de o minério de ferro recuou 8,3 % em relação a ultima sexta-feira para US$ 104,7 a tonelada em o ... http://t.co/5EhMLg8rks",
+          "realization": {
+            "Arg0": "8,3 % em",
+            "Arg1": "a ultima sexta-feira",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "case",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443017421600071680l",
+          "text": "RT @valoramais : #VALE5 : O preço de o minério de ferro recuou 8,3 % em relação a ultima sexta-feira para US$ 104,7 a tonelada em o ... http://t.co…",
+          "realization": {
+            "Arg0": "8,3 % em",
+            "Arg1": "a ultima sexta-feira",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "case",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461489131474792449l",
+          "text": "Vale lucra R$ 5,9 bi em o primeiro trimestre , queda de 4,7 % em relação a 2013 : A mineradora Vale ( VALE3 , VALE ... http://t.co/eEDSbfNDX1",
+          "realization": {
+            "Arg0": "4,7 % em",
+            "Arg1": "a 2013",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "case",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459291826718273536l",
+          "text": "Carteira de Crédito Expandida , em março de 2014 , atingiu R$ 432,297 bilhões , evolução de 10,4 % em relação a o mesmo período de 2013 . #BBDC4",
+          "realization": {
+            "Arg0": "10,4 % em",
+            "Arg1": "a o mesmo período de 2013",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "case",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451751293678526464l",
+          "text": "E olha VALE5 beliscando os $ 30,00 ! Tava muito atrasada em relação a o mercado …",
+          "realization": {
+            "Arg0": "VALE5",
+            "Arg1": "a o mercado",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459291618378805249l",
+          "text": "Os Ativos Totais , em março de 2014 , registraram saldo de R$ 922,229 bilhões , crescimento de 3,1 % em relação a o mesmo período de 2013 . #BBDC4",
+          "realization": {
+            "Arg0": "3,1 % em",
+            "Arg1": "a o mesmo período de 2013",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "case",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 2,
+          "nmod": 2,
+          "case": 5,
+          "obj": 1
+        },
+        "Arg2": {
+          "nmod": 3,
+          "obl": 1
+        },
+        "Arg1": {
+          "case": 2,
+          "nmod": 8
+        }
+      }
+    }
+  ]
+}

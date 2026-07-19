@@ -1,0 +1,233 @@
+{
+  "lemma": "projeção",
+  "lemma_base": "projeção",
+  "senses": [
+    {
+      "pt_roleset": "projeção.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "projection.01",
+      "english_roleset_source": "verb-project.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/projection.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "fortune teller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "prediction"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446323386281496577l",
+          "text": "Quem crê em a queda de a China vai afundar junto com suas projeções , diz presidente de a Vale : Pre ... http://t.co/vC4FQxoti0 #infomoney #vale5",
+          "realization": {
+            "Arg0": "presidente de a Vale",
+            "Arg1": "Quem crê em a queda de a China vai afundar junto com suas projeções",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462312886463787008l",
+          "text": "De manhã recebi este gráfico diário de a #PETR4 com as projeções de o finado #Fibonacci . http://t.co/ev8FmON0yB",
+          "realization": {
+            "Arg0": "gráfico diário de a #PETR4",
+            "Arg1": "de o finado #Fibonacci",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441298264323657728l",
+          "text": "@Live_Trade em as suas projeções , CSNA3 mergulha até que faixa de preço ?",
+          "realization": {
+            "Arg0": "@Live_Trade",
+            "Arg1": "CSNA3 mergulha até que faixa de preço ?",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "vocative",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441315359602143232l",
+          "text": "18 ações passam por ' ressaca ' após carnaval e fecham em queda , Vale recua 3 % : Mesmo com proj ... http://t.co/GNveU1iOgh #infomoney#vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464362361244381184l",
+          "text": "$AEDU3 - Anhanguera ( aedu-nm ) - Fato Relevante - Projecoes Financeiras Para O Ano De 2014 http://t.co/X0dQsYyLkh",
+          "realization": {
+            "Arg0": "$AEDU3 - Anhanguera ( aedu-nm )",
+            "Arg1": "Financeiras Para O Ano De 2014",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445928106705321984l",
+          "text": "projeção de volume para a #PETR4 tá monstruosa ! Mais de 50 milhões de ações ! o.O De olhoooo ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de volume para a #PETR4",
+            "Arg2": null,
+            "Arg3": "tá monstruosa ! Mais de 50 milhões de ações !",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446654363638185984l",
+          "text": "e a projeção de volume de a #PETR4 hein ? Chegou perto de romper os 100000000 de ações . o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de volume de a #PETR4 hein ?",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "discourse",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453198293934559232l",
+          "text": "Ei , só uma observação . PETR4 ainda tem projeção de baixa . Fica calmo amigo que fica se gabando de essa alta ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de baixa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463664480288006145l",
+          "text": "Entrei em #petr4 , com projeção de crescimento . #hype3 ta maravilhosa , continua em a tendência de alta .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de crescimento",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441221519025262592l",
+          "text": "Projeção para o preço de abertura de a #VALE5 em função de a arbitragem de a ADR e de o dolar de este momento : R$ 28,78",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "para o preço de abertura de a #VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 2,
+          "obj": 1,
+          "vocative": 1
+        },
+        "Arg1": {
+          "obl": 1,
+          "nmod": 7,
+          "discourse": 1
+        },
+        "Arg3": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

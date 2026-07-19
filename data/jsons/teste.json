@@ -1,0 +1,209 @@
+{
+  "lemma": "teste",
+  "lemma_base": "teste",
+  "senses": [
+    {
+      "pt_roleset": "teste.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "test.01",
+      "english_roleset_source": "verb-test.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/test.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "examiner"
+        },
+        {
+          "id": "Arg1",
+          "desc": "examined"
+        },
+        {
+          "id": "Arg2",
+          "desc": "in search of, for what"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_465529663503073281l",
+          "text": "#PETR4 . Shooting star ( com doji lápide ) em o semanal . Teste de LTB em o gráfico mensal . Gráfico diário com ENGOLFO DE ... http://t.co/Q3q3AgaMEm",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de LTB",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448089872927293440l",
+          "text": "se conseguir romper essa barreira ( R$ 13,85 ) , podemos ver um novo teste de os R$ 13,50 ... #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de os R$ 13,50",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445976060627521536l",
+          "text": "novo teste acontecendo agora ! #PETR4 R$ 12,95 ~ 13,00",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446337430824943616l",
+          "text": "fiquemos de olho em um possivel teste em a região de os R$ 13,3 de a #PETR4 ... pode dizer muita coisa . ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a região de os R$ 13,3 de a #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445973479092146176l",
+          "text": "primeiro teste de a resistência e ela foi forte e segurou . Vai de novo ? #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de a resistência",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468816498992353280l",
+          "text": "$PBR ( ADR PETR4 ) falhou o teste de quebra de a LTB ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de quebra de a LTB",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469097963181314048l",
+          "text": "tentarão levar a #PETR4 a um teste em os R$ 17.75 , por baixo ? o.O Se conseguirem , os caras são heróis ! :)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em os R$ 17.75",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456102370716712960l",
+          "text": "Teste de os R$ 15,1 agora ! Olho em ele ! ! ! #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de os R$ 15,1",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449175888555692032l",
+          "text": "vamos ver como a #PETR4 se comporta em o teste de os R$ 14,7 agora ... ( que arrancada doida ... 2x por causa de o IBOPE , que legal ... )",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de os R$ 14,7",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 3
+        },
+        "Arg1": {
+          "obj": 1,
+          "nmod": 4
+        }
+      }
+    }
+  ]
+}

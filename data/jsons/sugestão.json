@@ -1,0 +1,86 @@
+{
+  "lemma": "sugestão",
+  "lemma_base": "sugestão",
+  "senses": [
+    {
+      "pt_roleset": "sugestão.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "suggestion.01",
+      "english_roleset_source": "verb-suggest.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/suggestion.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "sayer"
+        },
+        {
+          "id": "Arg2",
+          "desc": "utterance (suggestion)"
+        },
+        {
+          "id": "Arg3",
+          "desc": "hearer"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453888972205600768l",
+          "text": "@Live_Trade oibr4 , alguma sugestão ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "@Live_Trade",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "vocative",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453546592155738113l",
+          "text": "RT @reminiscences : Sugestao para Graça Foster melhorar Petrobras #Petr4 : fazer campanha contra Dilma … melhor que anunciar descobertas de re …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "@reminiscences",
+            "Arg2": "fazer campanha contra Dilma",
+            "Arg3": "Graça Foster",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": "flat:name",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg3": {
+          "vocative": 1,
+          "flat:name": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

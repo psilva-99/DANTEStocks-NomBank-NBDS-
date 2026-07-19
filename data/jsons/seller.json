@@ -1,0 +1,61 @@
+{
+  "lemma": "seller",
+  "lemma_base": "seller",
+  "senses": [
+    {
+      "pt_roleset": "seller.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "seller.01",
+      "english_roleset_source": "verb-sell.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/seller.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing sold"
+        },
+        {
+          "id": "Arg2",
+          "desc": "buyer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_444470974206214144l",
+          "text": "Pica entrou em o short seller de CSNA3 com o anuncio de o programa de recompra de ações , + 12 %",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de CSNA3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "lemma": "outorga",
+  "lemma_base": "outorga",
+  "senses": [
+    {
+      "pt_roleset": "outorga.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "grant.01",
+      "english_roleset_source": "verb-grant.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/grant.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "granter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing granted"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_460775523166461953l",
+          "text": "#BR #BOVESPA #FIBR3 Fibria Celulose divulga fato relevante sobre plano de outorga de opção de compra de ações . http://t.co/xVMnlhrXwG",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de opção de compra de ações .",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

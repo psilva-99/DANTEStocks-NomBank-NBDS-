@@ -1,0 +1,156 @@
+{
+  "lemma": "número",
+  "lemma_base": "número",
+  "senses": [
+    {
+      "pt_roleset": "número.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "number.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/number.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "quantified"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443356969936510977l",
+          "text": "Safra decide diminuir número de ativos de sua carteira , veja as trocas : A instituição decidi ... http://t.co/arnpufVQob #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ativos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443391474357776384l",
+          "text": "BBSE3 - Safra decide diminuir número de ativos de sua carteira , veja as trocas - InfoMoney Veja mais em : http://t.co/BXD2IkR4E5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ativos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448924122459160577l",
+          "text": "\" @itau : E aí , preparado para 2050 ? Até lá , o número de pessoas acima de 60 anos deve triplicar : http://t.co/FxDpaVp4dr ” $QUAL3 ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de pessoas acima de 60 anos",
+            "Arg2": null,
+            "Arg3": "deve triplicar",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": "xcomp",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442016957525921792l",
+          "text": "Nº de papéis tomados de BBAS3 subiu 45 % em os últimos 4 pregões .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de papéis tomados de BBAS3",
+            "Arg2": null,
+            "Arg3": "subiu 45 % em os últimos 4 pregões",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": "obl",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460225661630947328l",
+          "text": "#PETROBRAS ON PETR3 Preço R$ 15,12 #Oscilação - 1,11 % Nº de Negócios 16.661",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Negócios",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461178854116429824l",
+          "text": "O mercado acionário brasileiro é desanimador , um número pífio de investidores cada vez menos empresas listadas , hoje SANB11 entra para a lista .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de investidores",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 4,
+          "obl": 2
+        },
+        "Arg3": {
+          "xcomp": 1,
+          "obl": 1
+        }
+      }
+    }
+  ]
+}

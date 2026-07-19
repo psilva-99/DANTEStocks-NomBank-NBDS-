@@ -1,0 +1,100 @@
+{
+  "lemma": "renúncia",
+  "lemma_base": "renúncia",
+  "senses": [
+    {
+      "pt_roleset": "renúncia.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "resignation.01",
+      "english_roleset_source": "verb-resign.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/resignation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "resigner"
+        },
+        {
+          "id": "Arg1",
+          "desc": "position resigned"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_458606212007727105l",
+          "text": "TEMPO REAL : Via Varejo despenca mais de 5 % após renúncia de CEO , Vale ON cai quase 2 % : Confi ... http://t.co/uDSHvArXvb #infomoney #vale5",
+          "realization": {
+            "Arg0": "CEO",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441235701271912448l",
+          "text": "$BRFS3 - Brf Sa ( brfs ) - Renuncia E Eleicao De Membros De o C.a. http://t.co/f41iizYOak",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Membros De o C.a.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441274491155787776l",
+          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Renuncia E Eleicao De Membros De o C.a. ( complemento ) http://t.co/0uRQWZmhv5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Membros De o C.a.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

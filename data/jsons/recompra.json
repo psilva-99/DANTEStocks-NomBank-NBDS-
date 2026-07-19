@@ -1,0 +1,540 @@
+{
+  "lemma": "recompra",
+  "lemma_base": "recompra",
+  "senses": [
+    {
+      "pt_roleset": "recompra.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "buy.01",
+      "english_roleset_source": "verb-buy.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/buy.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "buyer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing bought"
+        },
+        {
+          "id": "Arg2",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_444467288595775488l",
+          "text": "Notas gerais A COMPANHIA SIDERÚRGICA NACIONAL ( CSNA3 ) abriu um novo programa de recompra de até 10 % suas ... http://t.co/4O0ePAN2Av",
+          "realization": {
+            "Arg0": "A COMPANHIA SIDERÚRGICA NACIONAL",
+            "Arg1": "de até 10 % suas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": "nmod:strunc",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444470974206214144l",
+          "text": "Pica entrou em o short seller de CSNA3 com o anuncio de o programa de recompra de ações , + 12 %",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444471063641333760l",
+          "text": "#CSN ( CSNA3 ) : Conselho aprova recompra de até 70.2 mi ações em 1 mês",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "ações",
+            "Arg2": null,
+            "Arg3": "de até 70.2 mi",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nummod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449162222611468288l",
+          "text": "$FIBR3 - Fibria ( fibr-nm ) - Conclusao De Recompra De o Bond 2020 http://t.co/hykq9oFahY",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Bond 2020",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456440001882882048l",
+          "text": "TEMPO REAL : China puxa alta de a Vale , CSN sobe mais de 3 % com recompra de ações : Acompanhe aq ... http://t.co/dSOg2frxJQ #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459744836766416897l",
+          "text": "será que a csna3 vai lançar o terceiro programa de recompra ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468731360044384256l",
+          "text": "RT @chrinvestor : #BRFS3 anunciou a recompra de até 1 milhão de ações . O surpreendente é o período p/ a recompra ... apenas 1 semana ( 20/mai - …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": "de até 1 milhão",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468731360044384256l",
+          "text": "RT @chrinvestor : #BRFS3 anunciou a recompra de até 1 milhão de ações . O surpreendente é o período p/ a recompra ... apenas 1 semana ( 20/mai - …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_472016320159285248l",
+          "text": "O mistério de a #CSN : o que explica três recompras monstruosas de #ações em apenas dois meses ( e se ocorreram ) ? http://t.co/rcYtFUyuLr $CSNA3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de #ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449226702712225792l",
+          "text": "#petr4Recompra : R$ 15,17 . Hoje LAVEI A ÉGUA !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#petr4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445557796072079360l",
+          "text": "LAME4 em o swing acima de R$ 14,85 parece dar compra ! Recompra de ações é mais um indicador ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_467018177952874496l",
+          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Resultados De a Oferta De Recompra http://t.co/DBLJswVFeZ",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444495896227885056l",
+          "text": "#CSNA3 Programa de Recompra de acoes ate 70.205.661 acoes . Prazo para a realização de as operações de 14/03/2014 e 14/04/2014 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de acoes",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445904977484316672l",
+          "text": "$MRVE3 - Mrv ( mrve-nm ) - Novo Programa De Recompra De Acoes http://t.co/qxl3SJQ6yo",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Acoes",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445926666809122816l",
+          "text": "CSN boa oportunidade com o anúncio de recompra de 70,2 milhões de ações por a empresa . Valeu ficar bem de olho . #CSNA3",
+          "realization": {
+            "Arg0": "por a empresa",
+            "Arg1": "de 70,2 milhões de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456251408770428928l",
+          "text": "CSNA3 deve subir bem com dados bons de a China e anúncio de recompra de 10 % de as ações em os próximos dias",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de 10 % de as ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456258632997294082l",
+          "text": "Momento de comprar #csna3 Valor Econômico - CSN aprova novo programa para recompra de até 10 % de suas ações - http://t.co/IQi77wL326",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de até 10 % de suas ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456419051376365569l",
+          "text": "CSN ( #CSNA3 ) : Programa de Recompra de Ações . http://t.co/TJshHLJGxw",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458665044927332353l",
+          "text": "#CSNA3 apresenta um 2º programa de recompra de ações só que parece nem ter concluído o 1º programa de recompra de 10 % de as ações .",
+          "realization": {
+            "Arg0": "#CSNA3",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458665044927332353l",
+          "text": "#CSNA3 apresenta um 2º programa de recompra de ações só que parece nem ter concluído o 1º programa de recompra de 10 % de as ações .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de 10 % de as ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470914432332496896l",
+          "text": "CSN ( #CSNA3 ) mantém processo de recompra de ações com novo programa . http://t.co/0fbhLOv6uK ( Exame )",
+          "realization": {
+            "Arg0": "CSN",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470970886087258112l",
+          "text": "A #CSNA3 Companhia Siderúrgica Nacional anunciou seu terceiro plano de recompra de ações de maneira bem agressiva . A ação sobe quase 5 % ! !",
+          "realization": {
+            "Arg0": "A #CSNA3",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470972350767583232l",
+          "text": "Terceiro programa de recompra de ações de a #CSN #CSNA3 anunciado em um total de recompra de 53.326.161 ações . Ativo sobe quase + 5 % .",
+          "realization": {
+            "Arg0": "de a #CSN",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470972350767583232l",
+          "text": "Terceiro programa de recompra de ações de a #CSN #CSNA3 anunciado em um total de recompra de 53.326.161 ações . Ativo sobe quase + 5 % .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de 53.326.161 ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470982638564806656l",
+          "text": "Terceiro programa de recompra de ações de a #CSN #CSNA3 anunciado em um total de recompra de 53.326.161 ações . Ativo sobe mais de 5,5 % .",
+          "realization": {
+            "Arg0": "de a #CSN",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_470982638564806656l",
+          "text": "Terceiro programa de recompra de ações de a #CSN #CSNA3 anunciado em um total de recompra de 53.326.161 ações . Ativo sobe mais de 5,5 % .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de 53.326.161 ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444484995537989632l",
+          "text": "Várias empresas que anunciam recompra de ações em a verdade não recompram absolutamente nada . Não há nenhum controle sobre isso #CSN #CSNA3",
+          "realization": {
+            "Arg0": "Várias empresas",
+            "Arg1": "de ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "flat:name": 1,
+          "nmod": 3,
+          "nsubj": 4
+        },
+        "Arg1": {
+          "nmod:strunc": 1,
+          "nmod": 22,
+          "flat:name": 1
+        },
+        "Arg3": {
+          "nummod": 1,
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

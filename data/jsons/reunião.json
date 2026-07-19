@@ -1,0 +1,218 @@
+{
+  "lemma": "reunião",
+  "lemma_base": "reunião",
+  "senses": [
+    {
+      "pt_roleset": "reunião.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "meeting.01",
+      "english_roleset_source": "verb-meet.03",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/meeting.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "one party"
+        },
+        {
+          "id": "Arg1",
+          "desc": "reason to meet"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other party"
+        },
+        {
+          "id": "Arg3",
+          "desc": "8 time of meeting"
+        },
+        {
+          "id": "Arg4",
+          "desc": "9 location of meeting"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443463813623738368l",
+          "text": "#IBOV #BRML3 BR Malls divulga ata de a reunião de o conselho de administração realizada dia 25 de fevereiro . http://t.co/7MpofZh7wj",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "com o conselho de administração",
+            "Arg3": "dia 25 de fevereiro",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443207013405700096l",
+          "text": "A Light S.A. arquivou a ata de a Reunião de o Conselho de Administração realizada hoje . Confira : http://t.co/F8LbSlsFfV $LIGT3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de o Conselho de Administração",
+            "Arg3": "hoje",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": "advmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446975198274002944l",
+          "text": "já pensou , se para abafar possível ' crise ' em a #PETR4 a reunião de conselho de hoje decidir por um aumento em os combustíveis ? o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "por um aumento em os combustíveis",
+            "Arg2": "de conselho",
+            "Arg3": "de hoje",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": "advmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451103473405538304l",
+          "text": "#IBOV #CCRO3 CCR publica ata de a reunião de o conselho de administração realizada dia 19 de fevereiro . http://t.co/R0eQ7JedZl",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de o conselho de administração",
+            "Arg3": "dia 19 de fevereiro",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443019897816109057l",
+          "text": "Por ordem de Dilma , Mantega fará reunião com ' gigantes ' de o empresariado : Ministro de a fazenda ... http://t.co/wEYR2pNDqY #infomoney #vale5",
+          "realization": {
+            "Arg0": "Mantega",
+            "Arg1": null,
+            "Arg2": "com ' gigantes ' de o empresariado",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444121511981760512l",
+          "text": "Reunião com a Eletrobras em a Apimec Rio em o dia 1 de Abril . Coincidentemente , em o dia de a mentira . Bela escolha , combina com a empresa . #ELET6",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "com a Eletrobras",
+            "Arg3": "em o dia 1 de Abril",
+            "Arg4": "em a Apimec Rio"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": "nmod",
+            "Arg4": "flat:name"
+          }
+        },
+        {
+          "sent_ID": "dante_01_444123736917409792l",
+          "text": "RT @chrinvestor : Reunião com a Eletrobras em a Apimec Rio em o dia 1 de Abril . Coincidentemente , em o dia de a mentira . Bela escolha , combina com …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "com a Eletrobras",
+            "Arg3": "em o dia 1 de Abril",
+            "Arg4": "em a Apimec Rio"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": "nmod",
+            "Arg4": "flat:name"
+          }
+        },
+        {
+          "sent_ID": "dante_01_459655850961809408l",
+          "text": "Reunião de o conselho de a Petrobras hoje , resultados e Vale agitam noticiário : Entre a temporad ... http://t.co/1YYzcTRfmC #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "de o conselho de a Petrobras",
+            "Arg3": "hoje",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": "advmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445919193561432067l",
+          "text": "#ELET3 Eletrobrás : reunião que promete http://t.co/fZKymcKhfZ via @VEJA",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 8
+        },
+        "Arg3": {
+          "nmod": 4,
+          "advmod": 3
+        },
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg4": {
+          "flat:name": 2
+        }
+      }
+    }
+  ]
+}

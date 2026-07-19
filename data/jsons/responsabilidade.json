@@ -1,0 +1,64 @@
+{
+  "lemma": "responsabilidade",
+  "lemma_base": "responsabilidade",
+  "senses": [
+    {
+      "pt_roleset": "responsabilidade.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "responsibility.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/responsibility.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "experiencer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "topic"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": "setting"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_461138223201533952l",
+          "text": "RTRS - PARA 33,4 % , DILMA TEM RESPONSABILIDADE EM COMPRA POR A PETROBRAS PETR4.SA DE REFINARIA EM PASADENA - - CNT / MDA PETR4.SA",
+          "realization": {
+            "Arg0": "DILMA",
+            "Arg1": "COMPRA POR A PETROBRAS PETR4.SA DE REFINARIA EM PASADENA",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

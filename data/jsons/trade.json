@@ -1,0 +1,281 @@
+{
+  "lemma": "trade",
+  "lemma_base": "trade",
+  "senses": [
+    {
+      "pt_roleset": "trade.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "trade.01",
+      "english_roleset_source": "verb-trade.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/trade.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, entity trading"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing being trade"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other exanger"
+        },
+        {
+          "id": "Arg3",
+          "desc": "other item in exchange, price or premium, traded for or at"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469104796453314561l",
+          "text": "#PETR4 já deu entrada e deu 1 % Trade fechado !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442658465542991872l",
+          "text": "BVMF3 _ Segue o trade . http://t.co/RLvRj0RQNl",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450723339045449729l",
+          "text": "#alll3 fechando em a maxima de o dia ... lindo call hoje pra swing trade . Compramos em os R$ 7,4 . #teamclear",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455334111087824898l",
+          "text": "Trades em andamento , CSNA3 e GGBR4 bateram em a realização parcial ! MAravilha ! http://t.co/B67f6lgMSL",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "CSNA3 e GGBR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449196737367146496l",
+          "text": "#petr4 = alta de 6,11 % a as 11:47 a o preço de R$ 15,27 , alavancagem de 20X em a CLEAR , MELHOR TRADE DE O ANO ! Parecido c/ dia de o Investment Grade",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453185594030850048l",
+          "text": "#petr4 16,02 quem vai dar o tapa p/ definir o lado a a trade ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453184992144023553l",
+          "text": "Trade com #JBSS3 concluído com sucesso :D",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "com #JBSS3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447488010985426944l",
+          "text": "Trades em andamento sem realização parcial ou stop loss apenas a venda em bbas3 . Start 20,09 . Stop 21,92 e alvo 18,26",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Start 20,09 . Stop 21,92 e alvo 18,26",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444474400981938176l",
+          "text": "@Smarttrade10 @ferrisss MRVE3 perdendo 7.75 em o fechamento hoje fica complicado . Se nao , pode abrir um trade pra curto prazo .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443830052690882560l",
+          "text": "@DuctorMarcus 19,2 to saindo de o DT comprado 3hs de trade em o BBAS3 , mas to segurando uma posição em swing .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446327698953338880l",
+          "text": "#vale5 olha o trade ! ! ! 26,26 postado em a abertura",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447485591756632065l",
+          "text": "VALE5 e BOVA11 , trade que já haviam sido feita realização parcial , geraram saída de o restante em o lucro . vale5 a 26,95 e bova11 a 45,97",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "VALE5 e BOVA11",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447006955258011648l",
+          "text": "Abrimos compra de VALE5 para o trade em o R$ 27,00 . Heyyyyyyyyyyyyy estamos em o game ! ! !",
+          "realization": {
+            "Arg0": "Abrimos",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "root",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 2,
+          "nmod": 2
+        },
+        "Arg0": {
+          "root": 1
+        }
+      }
+    }
+  ]
+}

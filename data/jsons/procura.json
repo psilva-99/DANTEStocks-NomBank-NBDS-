@@ -1,0 +1,61 @@
+{
+  "lemma": "procura",
+  "lemma_base": "procura",
+  "senses": [
+    {
+      "pt_roleset": "procura.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "search.01",
+      "english_roleset_source": "verb-search.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/search.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "searcher"
+        },
+        {
+          "id": "Arg1",
+          "desc": "searched for"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443747856852480000l",
+          "text": "@ferrisss @dfittarelli @HudsonPF Correção : Posição aberta #PETR3 E as duas PETR estão em destaque em a procura de D-1",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de D-1",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

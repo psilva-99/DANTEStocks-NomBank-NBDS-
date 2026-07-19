@@ -1,0 +1,121 @@
+{
+  "lemma": "pedido",
+  "lemma_base": "pedido",
+  "senses": [
+    {
+      "pt_roleset": "pedido.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "request.01",
+      "english_roleset_source": "verb-request.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/request.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "asker"
+        },
+        {
+          "id": "Arg1",
+          "desc": "favor"
+        },
+        {
+          "id": "Arg2",
+          "desc": "hearer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443546875632029696l",
+          "text": "#PETR4 RT @kitowgallo : PGR manda para o Rio pedido para apurar suposto suborno em a Petrobras : Procuradoria de a Repúb ... http://t.co/kDSqPTbzcD",
+          "realization": {
+            "Arg0": "PGR",
+            "Arg1": "para apurar suposto suborno em a Petrobras",
+            "Arg2": "para o Rio",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451457092516577283l",
+          "text": "A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA , de esta vez composta por senadores e deputados .",
+          "realization": {
+            "Arg0": "A oposição",
+            "Arg1": "de criação de CPI para investigar a Petrobras PETR4.SA",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451460186029719552l",
+          "text": "RT @AlesandroAlves : A oposição protocolou mais um pedido de criação de CPI para investigar a Petrobras PETR4.SA , de esta vez composta por sen …",
+          "realization": {
+            "Arg0": "A oposição",
+            "Arg1": "de criação de CPI para investigar a Petrobras PETR4.SA",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445556435427287040l",
+          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Material A Disposicao ( pedido Publico De Procuracao ) http://t.co/0vmBXdZc0u",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Procuracao",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3
+        },
+        "Arg1": {
+          "nmod": 4
+        },
+        "Arg2": {
+          "obl": 1
+        }
+      }
+    }
+  ]
+}

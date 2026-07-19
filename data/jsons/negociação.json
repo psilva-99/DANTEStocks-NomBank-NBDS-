@@ -1,0 +1,121 @@
+{
+  "lemma": "negociação",
+  "lemma_base": "negociação",
+  "senses": [
+    {
+      "pt_roleset": "negociação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "negotiation.01",
+      "english_roleset_source": "verb-negotiate.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/negotiation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "negotiatior"
+        },
+        {
+          "id": "Arg1",
+          "desc": "agreement"
+        },
+        {
+          "id": "Arg2",
+          "desc": "explicit other party"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469538033432137728l",
+          "text": "#ABEV3 Hoje , dia 22/05/2014 , é a data limite para negociação de os direitos de subscrição de a AMBEV S.A ( ABEV1 ) ... http://t.co/uUnPNVLCr0",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de os direitos de subscrição de a AMBEV S.A ( ABEV1 )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459389829080690689l",
+          "text": "$DTEX3 - Duratex ( dtex-nm ) - Material A Disposicao ( politicas De Divulg. E De Negoc. ) http://t.co/ZG4dXwIhJf",
+          "realization": {
+            "Arg0": "Duratex",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454587433800458240l",
+          "text": "$SBSP3 - Sabesp ( sbsp-nm ) - Negociacao Com A Emae Para Resolucao De Acoes http://t.co/D192xgQFKV",
+          "realization": {
+            "Arg0": "Sabesp",
+            "Arg1": "Resolucao De Acoes",
+            "Arg2": "Emae",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462331459194601472l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Material A Disposicao ( politica De Divulgacao E Negociacao ) http://t.co/hIu0WyzXA6",
+          "realization": {
+            "Arg0": "Localiza",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        },
+        "Arg0": {
+          "nmod": 3
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

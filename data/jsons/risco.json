@@ -1,0 +1,115 @@
+{
+  "lemma": "risco",
+  "lemma_base": "risco",
+  "senses": [
+    {
+      "pt_roleset": "risco.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "risk.01",
+      "english_roleset_source": "verb-risk.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/risk.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity risking something"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing risked, tried"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441222037189562368l",
+          "text": "HSBC mostra como ganhar dinheiro em a Bolsa com os riscos de ' apagão ' em o Brasil : Quem pensa qu ... http://t.co/3gDnlmElHF #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ' apagão ' em o Brasi",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450012621404925953l",
+          "text": "Boa tarde ! Acompanhe nossa análise de a PETR4 em https://t.co/DxZYot1LSC Clubefinanceiro , risco levado a sério .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455700825927872512l",
+          "text": "RT @chrinvestor : Com o provável racionamento de água em SP , atualmente investir em a Sabesp representa um risco elevado . #SBSP3 - 23 % em 2014 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455700682084204544l",
+          "text": "Com o provável racionamento de água em #SP , atualmente #investir em a #Sabesp representa um risco elevado . #SBSP3 - 23 % em 2014 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

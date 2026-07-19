@@ -1,0 +1,79 @@
+{
+  "lemma": "redução",
+  "lemma_base": "redução",
+  "senses": [
+    {
+      "pt_roleset": "redução.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "reduction.01",
+      "english_roleset_source": "verb-reduce.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reduction.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, entity making something be longer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "logical subject, patient, thing falling"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ext, amount fallen"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start point"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end point"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_471785265049382912l",
+          "text": "$SBSP3 - SABESP amplia programa de incentivo a a redução de consumo de água para outros municípios http://t.co/PQ4UFRy9fE",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de consumo de água",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461038611555958784l",
+          "text": "Mudanças em a carteira de ações de a Lato Sensu . Saída de AEDU3 e BBSE3 ( por apresentarem redução em o seus valores ... http://t.co/1LVOZVEF5e",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em o seus valores",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

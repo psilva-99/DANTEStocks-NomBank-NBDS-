@@ -1,0 +1,64 @@
+{
+  "lemma": "visão",
+  "lemma_base": "visão",
+  "senses": [
+    {
+      "pt_roleset": "visão.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "vision.01",
+      "english_roleset_source": "verb-see.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/vision.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "viwer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing viewed"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_460788178345926657l",
+          "text": "Resultado corporativo de a #TRACTEBEL ( TBLE3 ) . Confira a nossa visão sobre os dados divulgados por a empresa . http://t.co/wifhNsopqt",
+          "realization": {
+            "Arg0": "nossa",
+            "Arg1": "sobre os dados divulgados por a empresa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

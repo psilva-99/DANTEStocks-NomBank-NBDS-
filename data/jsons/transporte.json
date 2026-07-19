@@ -1,0 +1,82 @@
+{
+  "lemma": "transporte",
+  "lemma_base": "transporte",
+  "senses": [
+    {
+      "pt_roleset": "transporte.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "transport.01",
+      "english_roleset_source": "verb-transport.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/transport.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "causer of motion"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing in motion"
+        },
+        {
+          "id": "Arg2",
+          "desc": "destination"
+        },
+        {
+          "id": "Arg3",
+          "desc": "source"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_464738307692191744l",
+          "text": "#GOLL4 O transporte doméstico de passageiros registrou aumento de 8,16 % em a demanda medida em passageiros ... http://t.co/8pIYzbanHG",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de passageiros",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459330478110412800l",
+          "text": "( ALLL3 ) : A ALL e a Rumo deram início a conversas para que a concessionária aumente o volume de o transporte de ... http://t.co/t2JXbpKAef",
+          "realization": {
+            "Arg0": "a concessionária",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg0": {
+          "nsubj": 1
+        }
+      }
+    }
+  ]
+}

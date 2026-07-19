@@ -1,0 +1,156 @@
+{
+  "lemma": "projeto",
+  "lemma_base": "projeto",
+  "senses": [
+    {
+      "pt_roleset": "projeto.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "project.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/project.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "action"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_458958698875211776l",
+          "text": "Notas gerais A KLABIN ( KLBN4 ) vai emitir R$ 800 milhões em debêntures simples para financiar parte de o projeto ... http://t.co/wkPIPSbMjk",
+          "realization": {
+            "Arg0": "A KLABIN ( KLBN4 )",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471978268724580352l",
+          "text": "$CRUZ3 - Souza Cruz ( cruz ) - Fato Relevante Aprovacao De Projetos http://t.co/k7eMPEhA82",
+          "realization": {
+            "Arg0": "$CRUZ3 - Souza Cruz ( cruz )",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441913277376110592l",
+          "text": "Vale ( VALE5 ) – Adiou para 30 de março o prazo para a decisão sobre o projeto de exploração de potássio . #VisaoAtiva - Marginalmente negativa",
+          "realization": {
+            "Arg0": "Vale ( VALE5 )",
+            "Arg1": "de exploração de potássio",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446682266539143169l",
+          "text": "CIEL3 valorizou , está entre as ações indicadas de a Carteira Valor . Deve ter sido por o projeto especial de larga demanda pra Copa . Foi genial .",
+          "realization": {
+            "Arg0": "CIEL3",
+            "Arg1": "especial de larga demanda pra Copa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456115098252500992l",
+          "text": "#VALE3 #VALE5 - BNDES aprova R$ 6,2 bi para projetos de a Vale em Carajás - http://t.co/8foLxVlVla",
+          "realization": {
+            "Arg0": "BNDES",
+            "Arg1": "de a Vale em Carajás",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468800572238610432l",
+          "text": "#PETR4 Quase R$ 600 milhões só em terraplanagem ! ! ! E mais um bilhão em projetos e estudos ... http://t.co/xHxOXmZJzP",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis:hashtag",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 4,
+          "flat:name": 1,
+          "parataxis:hashtag": 1
+        },
+        "Arg1": {
+          "nmod": 3
+        }
+      }
+    }
+  ]
+}

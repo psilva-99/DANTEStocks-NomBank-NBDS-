@@ -1,0 +1,79 @@
+{
+  "lemma": "retorno",
+  "lemma_base": "retorno",
+  "senses": [
+    {
+      "pt_roleset": "retorno.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "return.04",
+      "english_roleset_source": "verb-yield.03",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/return.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "thing providing a dividend"
+        },
+        {
+          "id": "Arg1",
+          "desc": "dividend, earnings"
+        },
+        {
+          "id": "Arg2",
+          "desc": "recipient"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446601334377431040l",
+          "text": "A os comprados em #bbas3 , paciência para bom retorno em curto prazo e a os vendidos sem surpreendam ! Vamos com tudo !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458955542136762370l",
+          "text": "Conheça os retornos mais rápidos de o Ibovespa e aproveite as oportunidades para investir : A G ... http://t.co/coBxXJOQg0 #infomoney #vale5",
+          "realization": {
+            "Arg0": "da Ibovespa",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,1123 @@
+{
+  "lemma": "olho",
+  "lemma_base": "olho",
+  "senses": [
+    {
+      "pt_roleset": "olho.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "monitoring.01",
+      "english_roleset_source": "verb-monitor.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/monitoring.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "observer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing looked at"
+        },
+        {
+          "id": "Arg2",
+          "desc": "looking for what"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_445687170125549568l",
+          "text": "@ppaulovagner @Fontes_ Hj a tarde recebi relatório em PDF de a corretora @Citi recomendando compra de #USIM5 , fica de olho Paulo .",
+          "realization": {
+            "Arg0": "Paulo",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "vocative",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446990945779986432l",
+          "text": "e tem início o leilão de a #PETR4 ! De olho em a abertura . =)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a abertura",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451363398069288960l",
+          "text": "De olho llxl3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "llxl3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454335220419149824l",
+          "text": "Olho em a RAPT4 e QUAL3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a RAPT4 e QUAL3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456859339878588417l",
+          "text": "Lame4 de olho",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Lame4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459685070555852800l",
+          "text": "Usim5 de olho em a cp",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a cp",
+            "Arg2": "Usim5",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nsubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460763680020647937l",
+          "text": "Bom dia ! ! Continuemos de olho em itub4 , abev3 , goau4 e suzb5 que indicou shooting star . De olho em btow3 tb . Vamoooo ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em itub4 , abev3 , goau4 e suzb5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460763680020647937l",
+          "text": "Bom dia ! ! Continuemos de olho em itub4 , abev3 , goau4 e suzb5 que indicou shooting star . De olho em btow3 tb . Vamoooo ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em btow3 tb",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "advmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_467341850849058816l",
+          "text": "Realizei lucro em a #jbss3 depois de subir 4 % . Apostando em a queda pra entrar de novo . Ficaremos de olho .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444296047289176064l",
+          "text": "“ @ferrisss : VALE estaria de olho em a MMX . Aquisição faz sentido mesmo . Opa . Me serve e muito . @bovespabrokers @Smarttrade10 ” e petr4 em a ogxp3",
+          "realization": {
+            "Arg0": "VALE",
+            "Arg1": "em a MMX",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446339121917599744l",
+          "text": "@clubedopairico Ibovespa em as médias . Se bobear da pra brincar de urso se o mov. de a PETR4 for só uma correção . De olho ! o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462288940155019264l",
+          "text": "Ninguém dá nada por o dia de hoje , mas estou de olho em a #PETRE18 . Mais de 100 % de alta ! #petr4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a #PETRE18",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456064977296977920l",
+          "text": "10h42 = IBOVESPA perde 0,92 % ... Vilã de o dia : VALE3 , - 2,75 % e VALE5 , - 1,71 % , de olho em a China ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a China",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448837995089903616l",
+          "text": "de olha em a PETR4 pra venda",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a PETR",
+            "Arg2": "pra venda",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "case",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459325878758281216l",
+          "text": "opa , #VALE5 voltando a operar abaixo de os R$ 27,7 ! De zóio galera !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459700416121679872l",
+          "text": "a minha , a nossa , querida , amada , idolatrada , salve salve , #PETR4 tá perto de testar os R$ 15,7 ... DE OLHOOOOOOO ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459676869106081792l",
+          "text": "#goau4 fechou bonito ontem , depois de recuperar a queda . Continuo comprado . De olho em itub e jbss3 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em itub e jbss3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461130593787719680l",
+          "text": "#abev3 também andou recomendação e sobe forte . Continuo comprado . Vou entrar em #cemig4 por as Mm , de olho em uma resistência ~ 16.65",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em uma resistência",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448089232373215233l",
+          "text": "o suporte mais próximo de a #PETR4 está em a região de os R$ 13,85 ... de olho pessoal .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443753397897166848l",
+          "text": "será ? R$ 13,50 deixará a #PETR4 continuar sua caminhada de o repique ? Será ? De zóio ! ;)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446337430824943616l",
+          "text": "fiquemos de olho em um possivel teste em a região de os R$ 13,3 de a #PETR4 ... pode dizer muita coisa . ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em um possivel teste",
+            "Arg2": "em a região de os R$ 13,3 de a #PETR",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448823587932504066l",
+          "text": "R$ 14,7 se aproximando . De olho em a #PETR4 galera ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443023955293917184l",
+          "text": "Tô de olho em o HB esperando o MOMENTO HISTÓRICO de PETR4 em a era PT . Falta $ 0,01 pra 13 . E 13 é … PT !",
+          "realization": {
+            "Arg0": "Tô",
+            "Arg1": "em o HB esperando",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "cop",
+            "Arg1": "advcl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445928106705321984l",
+          "text": "projeção de volume para a #PETR4 tá monstruosa ! Mais de 50 milhões de ações ! o.O De olhoooo ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460855444723236864l",
+          "text": "#suzb5 ta em queda brava . Não sei se é algum problema de a empresa ou especulação msm . Ficar de olho para tentar pescar uma virada",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "para tentar pescar uma virada",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "obj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456515173910446080l",
+          "text": "interessante reparar que a #PETR4 repicou até a , agora , resistência de os R$ 15,7 ... De olho pra ver se respeita !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "pra ver se respeita",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "ccomp",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445926666809122816l",
+          "text": "CSN boa oportunidade com o anúncio de recompra de 70,2 milhões de ações por a empresa . Valeu ficar bem de olho . #CSNA3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441560681247412225l",
+          "text": "em a #PETR4 fiquemos de olho em como ela se comporta a o enfrentar os R$ 13,5 x ... Agora a região é resistência ... =/",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em como ela se comporta",
+            "Arg2": "a o enfrentar os R$ 13,5 x",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": "det",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448463290541150209l",
+          "text": "De olho em NATU3 em a compra acima de 36,91 . Analise pra decidir . http://t.co/nVJFb2xBNB",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em NATU3",
+            "Arg2": "em a compra acima de 36,91",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451832968454365184l",
+          "text": "Para amanhã em a venda de olho em : #cyre3 #tble3 #Brkm5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em : #cyre3 #tble3 #Brkm5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464090953360609280l",
+          "text": "Fibr3 de olho p/ cp",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Fibr3",
+            "Arg2": "p/ cp",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449202323651559424l",
+          "text": "de olho em OIBR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em OIBR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459331101778251777l",
+          "text": "Sanb11 de olho em a cp a confirmar",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Sanb11",
+            "Arg2": "em a cp",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441580131229138944l",
+          "text": "#pdgr3 1,46 bom suporte ... de olho ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442124576127193088l",
+          "text": "SUZB5 _ De olho em a venda ... Está próximo \";)\"",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "SUZB5",
+            "Arg2": "em a venda",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443824835085762560l",
+          "text": "Fundo em BRKM5 ? To de olho ...",
+          "realization": {
+            "Arg0": "To",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "cop",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444185949317398529l",
+          "text": "Hoje entrei em a venda com SANB11 . Estou de olho agora em BRPR3 e TIMP3 . Analisem e tirem suas conclusões .",
+          "realization": {
+            "Arg0": "Estou",
+            "Arg1": "em BRPR3 e TIMP3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "cop",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445589717552492545l",
+          "text": "#bvmf3 de olho em a cp",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#bvmf3",
+            "Arg2": "em a cp",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446354173010141186l",
+          "text": "#llxl3 Tô de olho",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#llxl3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446666334001463296l",
+          "text": "#GGBR4 Vale ficar de olho comparando sempre o semanal .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "comparando sempre o semana",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "obj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449191784321908736l",
+          "text": "Ah #llxl3 só de olho ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#llxl3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452172531341213696l",
+          "text": "SELL MRVE3 =) de olho ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "MRVE3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453140831000866816l",
+          "text": "Boa semana a todos ! De olho em o setup de venda em MRVE3 , muito bonita !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em o setup de venda em MRVE3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456092131678244864l",
+          "text": "RT @clubedopairico : em a hora de a verdade : #PETR4 testando , agora , novamente de novo , os R$ 15,40 ! De olho e muita atenção ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456102370716712960l",
+          "text": "Teste de os R$ 15,1 agora ! Olho em ele ! ! ! #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em ele",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458965920954982400l",
+          "text": "#VALE5 namorando com o fio de a navalha ! De olho em ela !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em ela",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459020304778788864l",
+          "text": "Brkm5 de olho",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Brkm5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459032788180942848l",
+          "text": "Suzb5 de olho",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Suzb5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459333526102757376l",
+          "text": "#rent3 e #sanb11 de olho",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#rent3 e #sanb11",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459336318691315712l",
+          "text": "#MMXM3 de olho ... #LIGT3 perdendo R$ 19,33 pode dar venda ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#MMXM3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459527886350065664l",
+          "text": "“ @EstadaoEconomia : Governo confirma caso ‘ atípico ’ de o mal de a vaca louca em Mato Grosso http://t.co/gNCp114vy8 ” - jbss3 , de olho amanha .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "jbss3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459680505697669120l",
+          "text": "Alll3 só de olho",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Alll3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459709685327986688l",
+          "text": "cruz3 de olho em a co",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "cruz3",
+            "Arg2": "em a co",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460856396641472512l",
+          "text": "Conforme avaliado , #itub4 estopou e ta andando de lado . Continuaremos de olho . #abev3 ta estranho , se romper suporte , vou vazar .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461130981643415553l",
+          "text": "#btow3 : eita papel FEIO . #goll4 de olho em a média móvel",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#goll4",
+            "Arg2": "em a média móvel",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461163061085491200l",
+          "text": "cruz3 de olho em a cp se romper este de 15",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "cruz3",
+            "Arg2": "em a cp se romper este de 15",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464430172922720257l",
+          "text": "Opa de olho usim5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "usim5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458580699046367233l",
+          "text": "De olho em a volta de o feriado : Vale caiu mais de 2 % em a NYSE : Em esta sessão , o o mercado deve fi ... http://t.co/7ABoXOqTHu #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a volta de o feriado",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444105820939497472l",
+          "text": "um ingrediente importante entrou ' em jogo ' agora : aumentou o volume de a #PETR4 ! ! De olhoooo !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "vocative": 1,
+          "nsubj": 1,
+          "cop": 3
+        },
+        "Arg1": {
+          "nmod": 35,
+          "advmod": 1,
+          "case": 1,
+          "advcl": 1,
+          "acl": 1,
+          "nsubj": 3
+        },
+        "Arg2": {
+          "nsubj": 1,
+          "nmod": 9,
+          "obj": 2,
+          "ccomp": 1,
+          "det": 1,
+          "amod": 1
+        }
+      }
+    }
+  ]
+}

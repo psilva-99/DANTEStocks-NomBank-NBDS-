@@ -1,0 +1,64 @@
+{
+  "lemma": "solicitação",
+  "lemma_base": "solicitação",
+  "senses": [
+    {
+      "pt_roleset": "solicitação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "solicitation.01",
+      "english_roleset_source": "verb-solicit.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/solicitation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "source"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448972349292171264l",
+          "text": "$GOLL4 - GOL protocola solicitação para operar voos regulares entre Campinas e Miami http://t.co/mm0EgtD8kW",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "operar voos regulares entre Campinas e Miami",
+            "Arg2": "GOL",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nsubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nsubj": 1
+        }
+      }
+    }
+  ]
+}

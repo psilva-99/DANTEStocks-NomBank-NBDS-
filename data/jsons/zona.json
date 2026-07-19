@@ -1,0 +1,138 @@
+{
+  "lemma": "zona",
+  "lemma_base": "zona",
+  "senses": [
+    {
+      "pt_roleset": "zona.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "zone.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/zone.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "action"
+        },
+        {
+          "id": "Arg1",
+          "desc": "value"
+        },
+        {
+          "id": "Arg2",
+          "desc": "secondary-theme"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449250160464625664l",
+          "text": "Day trade VALE5 Previsto e evitado zona de alto risco e falta de liquidez absurda 27-03-14 http://t.co/FZV3HPrEG3",
+          "realization": {
+            "Arg0": "alto risco",
+            "Arg1": null,
+            "Arg2": "falta de liquidez absurda",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450691713724846082l",
+          "text": "vale5 ta numa zona de preço complicado. nem compra nem venda",
+          "realization": {
+            "Arg0": "preço complicado",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460899883462180865l",
+          "text": "Vale5 - Diário ::: Linha de Tendência de baixa, zona de sobre-venda! http://t.co/m5dEkcVXf3",
+          "realization": {
+            "Arg0": "sobre-venda",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468786582493745153l",
+          "text": "ELET6 corrigiu e chegou na zona de suporte em fibo http://t.co/E6M95yYksW",
+          "realization": {
+            "Arg0": "suporte",
+            "Arg1": null,
+            "Arg2": "em fibo",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460784899197505536l",
+          "text": "#USIM5 está se segurando bem , zona muito boa de suporte . Se furar 9,07 o movimento pode começar a ganhar força .",
+          "realization": {
+            "Arg0": "suporte",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 4,
+          "amod": 1
+        },
+        "Arg2": {
+          "amod": 1,
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

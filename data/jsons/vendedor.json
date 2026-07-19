@@ -1,0 +1,79 @@
+{
+  "lemma": "vendedor",
+  "lemma_base": "vendedor",
+  "senses": [
+    {
+      "pt_roleset": "vendedor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "seller.01",
+      "english_roleset_source": "verb-sell.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/seller.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing sold"
+        },
+        {
+          "id": "Arg2",
+          "desc": "buyer"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_445981754990804992l",
+          "text": "Sou vendedor de BRKM5 . Estou analisando time , hoje ou amanhã . @ferrisss @dfittarelli @HudsonPF @JPedro_Sullivan",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de BRKM5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444100391253585920l",
+          "text": "Destaques BTC #PETR3 #PETR4 #SBSP3 #BBAS3 Sou vendedor de todas a o longo de o dia . Petrobras aparece em tds criterios @ferrisss @dfittarelli",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de todas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}
