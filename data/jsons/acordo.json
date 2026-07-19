@@ -1,0 +1,289 @@
+{
+  "lemma": "acordo",
+  "lemma_base": "acordo",
+  "senses": [
+    {
+      "pt_roleset": "acordo.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "agreement.01",
+      "english_roleset_source": "verb-agree.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/agreement.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agreer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "proposition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other entity agreeing"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441546751867367424l",
+          "text": "$BBAS3 - Banco Do Brasil (bbas-nm) - Fato Relevante   Acordo Com Os Correios http://t.co/kW3xh2fjzU",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "Com Os Correios",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446266855536492544l",
+          "text": "$MRFG3 - Marfrig (mrfg-nm) - Fato Relevante - Primeiro Aditivo Ao Acordo De Acionistas http://t.co/jBJzeY5U5V",
+          "realization": {
+            "Arg0": "De Acionistas",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446975526323109888l",
+          "text": "$CCRO3 - Ccr Sa (ccro-nm) - Fato Relevante - Assinatura Do Aditivo Do Acrodo De Acionista http://t.co/xzQyZPPbBL",
+          "realization": {
+            "Arg0": "De Acionista",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454604295078690816l",
+          "text": "$GOLL4 - GOL e TAP assinam acordo para compartilhamento de voos http://t.co/F87EcEzEWK",
+          "realization": {
+            "Arg0": "GOL e TAP",
+            "Arg1": "para compartilhamento de voos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454607743392178177l",
+          "text": "#BR #BOVESPA #GOLL4 Gol assina acordo de compartilhamento de voos com TAP . http://t.co/wHGukBg7qp",
+          "realization": {
+            "Arg0": "Gol",
+            "Arg1": "de compartilhamento de voos",
+            "Arg2": "com TAP",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "nmod": 2
+        },
+        "Arg0": {
+          "nmod": 2,
+          "nsubj": 2
+        },
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    },
+    {
+      "pt_roleset": "acordo.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "accordance.01",
+      "english_roleset_source": "verb-agree.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/accordance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agreer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "proposition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other entity agreeing"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448534744804777984l",
+          "text": "Veja as melhores ações para comprar nesta semana, de acordo com 8 corretoras: Os papéis da G... http://t.co/L6OsbF6Os6 #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "as melhores ações para comprar nesta semana",
+            "Arg2": "com 8 corretoras",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448543126202757120l",
+          "text": "Veja as melhores ações para comprar em esta semana , de acordo com 8 corretoras : Os papéis de a Gerdau ( GGBR4 ) e de a ... http://t.co/SK7rRvdHEZ",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "as melhores ações para comprar em esta semana",
+            "Arg2": "com 8 corretoras",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451467886263934976l",
+          "text": "Confira 5 'top picks' para comprar este mês, de acordo com a Socopa: As 'Top Picks' da corre... http://t.co/Zu6BAhev7W #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "5 'top picks' para comprar este mês",
+            "Arg2": "com a Socopa",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 3
+        },
+        "Arg2": {
+          "nmod": 3
+        }
+      }
+    },
+    {
+      "pt_roleset": "acordo.03",
+      "pt_sense_index": 3,
+      "pt_sense_hint": 3,
+      "english_roleset": "accord.01",
+      "english_roleset_source": "verb-agree.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/accord.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agreer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "proposition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other entity agreeing"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459762929609756672l",
+          "text": "@gugabianco Até onde sei, 1) não temos cap. instalada para refino, 2) Acordos comerciais, Petr4 precisa exp pra gerar receita em dólar",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "comerciais",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "amod": 1
+        }
+      }
+    }
+  ]
+}

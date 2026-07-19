@@ -1,0 +1,79 @@
+{
+  "lemma": "curiosidade",
+  "lemma_base": "curiosidade",
+  "senses": [
+    {
+      "pt_roleset": "curiosidade.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "interest.01",
+      "english_roleset_source": "verb-interest.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/interest.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, causer of interest"
+        },
+        {
+          "id": "Arg1",
+          "desc": "interested in"
+        },
+        {
+          "id": "Arg2",
+          "desc": "interested entity"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449269972699975681l",
+          "text": "Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a perspectiva de que ela pode perder a eleição ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de saber o que a Dilma achou de a #PETR4 subir mais de 7 %",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nummod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449597804189847552l",
+          "text": "RT @chrinvestor : Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a perspectiva de que ela pode perder a el …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de saber o que a Dilma achou de a #PETR4 subir mais de 7 %",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nummod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nummod": 2
+        }
+      }
+    }
+  ]
+}

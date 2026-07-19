@@ -1,0 +1,79 @@
+{
+  "lemma": "locação",
+  "lemma_base": "locação",
+  "senses": [
+    {
+      "pt_roleset": "locação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "allocation.01",
+      "english_roleset_source": "verb-allocate.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/allocation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "granter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing granted"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_445254491609128961l",
+          "text": "#BRFS3 : anexo um gráfico mensal de os preços de as ações com informações sobre market share e locação de exportação . http://t.co/jvKF9Vgy6N",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de exportação",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451011065510649856l",
+          "text": "RT @pralex10 : #BRFS3 : anexo um gráfico mensal de os preços de as ações com informações sobre market share e locação de exportação . http://t.co…",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de exportação",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

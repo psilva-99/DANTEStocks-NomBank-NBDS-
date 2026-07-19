@@ -1,0 +1,61 @@
+{
+  "lemma": "ataque",
+  "lemma_base": "ataque",
+  "senses": [
+    {
+      "pt_roleset": "ataque.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "attack.01",
+      "english_roleset_source": "verb-attack.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/attack.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "attacker"
+        },
+        {
+          "id": "Arg1",
+          "desc": "entity attacked"
+        },
+        {
+          "id": "Arg2",
+          "desc": "attribute"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441958852410372096l",
+          "text": "#PETR4 Vigilante morre durante ataque a caixas eletrônicos em a Petrobras - notícias em Santos e Região http://t.co/nd5KXSoEa8 via @g1",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "a caixas eletrônicos em a Petrobras",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "lemma": "caminho",
+  "lemma_base": "caminho",
+  "senses": [
+    {
+      "pt_roleset": "caminho.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "path.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/path.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "action"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_463375453735374849l",
+          "text": "Oibr4 a caminho de nova máxima",
+          "realization": {
+            "Arg0": "Oibr4",
+            "Arg1": "de nova máxima",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "root",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468835433070460928l",
+          "text": "@Paty_Meirelles na PETR4 o rompimento dos R$17,75 abria caminho para uma queda até a região dos R$17,xx ... Só não pensei ver isso hoje, rs",
+          "realization": {
+            "Arg0": "o rompimento dos R$17,75",
+            "Arg1": "para uma queda até a região dos R$17,xx",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441233076748681216l",
+          "text": "' Salvação ' de a OGX e OSX pode estar a a caminho , mais 5 empresas estão em o radar : Nível de o reser ... http://t.co/WYotABlDa5 #infomoney#vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "' Salvação ' de a OGX e OSX",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443217384078598144l",
+          "text": "#PETR4 seguindo o mesmo caminho de a #OGXP3",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": "seguindo o mesmo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447705608960344064l",
+          "text": "#PETR4 indo em o mesmo caminho de a #OGXP3 http://t.co/jTNm4sfjJY",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": "indo em o mesmo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_466312523223166979l",
+          "text": "#TOTS3 é outra a caminho de o TH , pouco mais tímida que #RENT3",
+          "realization": {
+            "Arg0": "#TOTS3",
+            "Arg1": "de o TH",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441581046753419264l",
+          "text": "#ecor3segue seu caminho rsrsr",
+          "realization": {
+            "Arg0": "#ecor3",
+            "Arg1": "segue",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "root",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446040335706492930l",
+          "text": "@Live_Trade se nao me perdi em o caminho , hoje foi , petr4 , klbn4 , vale5 , estc3 , mmxm3 e indice ! Amanha possivel a goll4 , certo ?",
+          "realization": {
+            "Arg0": "me",
+            "Arg1": "perdi em o",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "root": 1,
+          "nsubj": 5,
+          "obj": 1
+        },
+        "Arg1": {
+          "nmod": 3,
+          "obl": 1,
+          "det": 3,
+          "root": 1
+        }
+      }
+    }
+  ]
+}

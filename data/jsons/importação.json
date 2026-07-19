@@ -1,0 +1,64 @@
+{
+  "lemma": "importação",
+  "lemma_base": "importação",
+  "senses": [
+    {
+      "pt_roleset": "importação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "import.01",
+      "english_roleset_source": "verb-import.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/import.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "importer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "commodity"
+        },
+        {
+          "id": "Arg2",
+          "desc": "exporter"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446161011943669760l",
+          "text": "“ @JornalMercantil : China planeja reduzir importação de minério de ferro http://t.co/Yqyjr6Z2fB ” #vale5",
+          "realization": {
+            "Arg0": "China",
+            "Arg1": "de minério de ferro",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

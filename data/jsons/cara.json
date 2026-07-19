@@ -1,0 +1,159 @@
+{
+  "lemma": "cara",
+  "lemma_base": "cara",
+  "senses": [
+    {
+      "pt_roleset": "cara.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "appearance.02",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/appearance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg1",
+          "desc": "value"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_454691501646557184l",
+          "text": "@live_trade tá mesmo com uma cara boa essa venda . Vamos aguardar . #PETR4 e #VALE5 estão bem doidinhas hoje .",
+          "realization": {
+            "Arg0": "essa venda",
+            "Arg1": "boa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443436776175443968l",
+          "text": "Vc tem dúvida q o #IBOLESMA está a cara de o PT ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 dividido p/ 50 !",
+          "realization": {
+            "Arg0": "o #IBOLESMA está",
+            "Arg1": "de o PT",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "cop",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443438174216671233l",
+          "text": "RT @picapautrader : Vc tem dúvida q o #IBOLESMA está a cara de o PT ? A #PETR4 é 13 ! a #VALE5 é 2 vezes 13 , q é 26 e a #OGXP3 é 0,26 ou seja 13 …",
+          "realization": {
+            "Arg0": "o #IBOLESMA está",
+            "Arg1": "de o PT",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "cop",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451345855191478273l",
+          "text": "@Live_Trade Em a #VALE5 tem gap em 27,90 e com cara de ir lá , cachorro é cachorro , viado é viado e gap é gap !",
+          "realization": {
+            "Arg0": "gap em 27,90",
+            "Arg1": "de ir lá",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "advmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441563014731665408l",
+          "text": "Essa notícia de o recorde de produção de a #PETR4 em o pré sal ta com uma cara de ter vindo pra tentar defender fundo ...",
+          "realization": {
+            "Arg0": "Essa notícia",
+            "Arg1": "de ter vindo pra tentar defender fundo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459024422691954688l",
+          "text": "#IBOV com cara de queda ! Topo em #CESP6 ? Fundo em #PDGR3 ?",
+          "realization": {
+            "Arg0": "#IBOV",
+            "Arg1": "de queda",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "root",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3,
+          "cop": 2,
+          "root": 1
+        },
+        "Arg1": {
+          "amod": 1,
+          "nmod": 3,
+          "advmod": 1,
+          "obj": 1
+        }
+      }
+    }
+  ]
+}

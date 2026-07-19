@@ -1,0 +1,61 @@
+{
+  "lemma": "meio",
+  "lemma_base": "meio",
+  "senses": [
+    {
+      "pt_roleset": "meio.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "middle.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/middle.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "whole"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_451396974261338112l",
+          "text": "O fundo ocorreu em o dia 17/03 , em os R$ 12,57 . Em 12 pregões já subiu mais de 30 % . Isso tudo , em o meio de escândalos de corrupção . #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de escândalos de corrupção.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

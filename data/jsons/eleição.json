@@ -1,0 +1,298 @@
+{
+  "lemma": "eleição",
+  "lemma_base": "eleição",
+  "senses": [
+    {
+      "pt_roleset": "eleição.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "election.01",
+      "english_roleset_source": "verb-elect.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/election.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "voters"
+        },
+        {
+          "id": "Arg1",
+          "desc": "candidate"
+        },
+        {
+          "id": "Arg2",
+          "desc": "office or position"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_451890459213037568l",
+          "text": "Petrobras vendeu refinaria em a Argentina por menos de o q valia . Qdo compra , paga m+ , qdo vende , pede m- . Se PT perder eleição , PETR4 vai a 35 !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "PT",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463667443161133056l",
+          "text": "Em a Bovespa , gestores definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , RENT3 , UGPA3 , e outras",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463670775506272257l",
+          "text": "RT @garimpodeacoes : Em a Bovespa , gestores definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , REN …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451411205161508866l",
+          "text": "BBSE3 - ' É muito cedo para basear a recomendação em o resultado de as eleições ' , diz BTG - InfoMoney Veja mais em : http://t.co/thncBwA5YP",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449213411021176832l",
+          "text": "IBOPE + CPI = ELET3 + 8 % / PETR4 + 6 % Pense em a alegria de os comprados se a Dilma perde as eleições ! :) http://t.co/FjiRXgDmJf",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Dilma",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461512197651574785l",
+          "text": "Velho , se Petr4 sobreviver a essa eleição nada + vai destruí - la ! é mta putaria estão literalmente ' estuprando ' a credibilidade @clubedopairico",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443075536924200960l",
+          "text": "@ferrisss petr4 paradinho em os 11 depois 8,5 ate as eleições .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458630671448428544l",
+          "text": "Bom , o pessoal recomendando compra de petr4 sei ! ! isso ta cheirando a pesquisas novas para eleição a presidente e não deve ser favorável ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "a presidente",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446658495862292480l",
+          "text": "#petr4 sem medo de errar , ou essa alta marcou o fim de a queda de uma década , ou é só mais um repique momentâneo . Esse ano ainda tem eleições !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441235701271912448l",
+          "text": "$BRFS3 - Brf Sa ( brfs ) - Renuncia E Eleicao De Membros De o C.a. http://t.co/f41iizYOak",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "De Membros De o C.a.",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441274491155787776l",
+          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Renuncia E Eleicao De Membros De o C.a. ( complemento ) http://t.co/0uRQWZmhv5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "De Membros De o C.a.",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449269972699975681l",
+          "text": "Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a perspectiva de que ela pode perder a eleição ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Dilma",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nsubj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449597804189847552l",
+          "text": "RT @chrinvestor : Teria curiosidade de saber o que a Dilma achou de a #PETR4 subir mais de 7 % com a perspectiva de que ela pode perder a el …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451149200290746369l",
+          "text": "@SakaSakamori @edmilsonpapo10 Restrições : Eleição , CPI #PETR4 * mais alguma que vcs tenham em mente ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nsubj": 3
+        },
+        "Arg2": {
+          "nmod": 3
+        }
+      }
+    }
+  ]
+}

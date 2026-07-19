@@ -1,0 +1,61 @@
+{
+  "lemma": "descolamento",
+  "lemma_base": "descolamento",
+  "senses": [
+    {
+      "pt_roleset": "descolamento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "gap.01",
+      "english_roleset_source": "verb-divide.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/gap.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity causing separation"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing being divided"
+        },
+        {
+          "id": "Arg2",
+          "desc": "attribute of arg1"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_454560977007443968l",
+          "text": "A divergência de baixa formada em o diário de #CMIG4 serviu apenas para fechar o descolamento com o RK ... Leia mais : http://t.co/QL31D4iUAV",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "com o RK",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

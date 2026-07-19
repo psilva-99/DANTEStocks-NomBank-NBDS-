@@ -1,0 +1,85 @@
+{
+  "lemma": "licença",
+  "lemma_base": "licença",
+  "senses": [
+    {
+      "pt_roleset": "licença.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "license.01",
+      "english_roleset_source": "verb-license.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/license.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "granter of license"
+        },
+        {
+          "id": "Arg1",
+          "desc": "licensed thing"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary, licensed-to"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_444431529943789568l",
+          "text": "$ALLL3 - All Amer Lat ( alll-nm ) - Fato Relevante Licensa Ambiental P/ Duplic Subtrechos http://t.co/nJcfQYPDI7",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Duplic Subtrechos",
+            "Arg2": "All Amer Lat ( alll-nm )",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453583096823443456l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Encerramento De a Licenca De o Diretor De Distribuicao http://t.co/t0zHiXiVwN",
+          "realization": {
+            "Arg0": "Eletrobras ( elet-n1 )",
+            "Arg1": null,
+            "Arg2": "Do Diretor De Distribuicao",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 2
+        },
+        "Arg0": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "lemma": "conversa",
+  "lemma_base": "conversa",
+  "senses": [
+    {
+      "pt_roleset": "conversa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "conversation.01",
+      "english_roleset_source": "verb-discuss.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/conversation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "topic"
+        },
+        {
+          "id": "Arg2",
+          "desc": "actor2"
+        },
+        {
+          "id": "Arg3",
+          "desc": "medium"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459330478110412800l",
+          "text": "( ALLL3 ) : A ALL e a Rumo deram início a conversas para que a concessionária aumente o volume de o transporte de ... http://t.co/t2JXbpKAef",
+          "realization": {
+            "Arg0": "ALL",
+            "Arg1": "para que a concessionária aumente o volume de o transporte de",
+            "Arg2": "Rumo",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "case",
+            "Arg2": "nsubj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441968116361609217l",
+          "text": "#TIMP3 - Telecom Italia diz que não há conversas de fusão sobre TIM - http://t.co/O502wucYkW",
+          "realization": {
+            "Arg0": "Telecom Italia",
+            "Arg1": "de fusão sobre TIM",
+            "Arg2": "TIM",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1,
+          "flat:name": 1
+        },
+        "Arg1": {
+          "case": 1,
+          "nmod": 1
+        },
+        "Arg2": {
+          "nsubj": 1,
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,80 @@
+{
+  "lemma": "inscrição",
+  "lemma_base": "inscrição",
+  "senses": [
+    {
+      "pt_roleset": "inscrição.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "registration.01",
+      "english_roleset_source": "verb-register.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/registration.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "instrument"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary predication"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_463297321254809600l",
+          "text": "$PETR3 - Petrobras ( petr ) - encer. de as Inscricoes De o Plano De Incentivo Deslig. Voluntario http://t.co/pmJ0jol3wY",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Plano De Incentivo Deslig. Voluntario",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463385848562847744l",
+          "text": "#PETR4 ): A cia informou que foi encerrado em o dia 31 de março o prazo de inscrição para o Plano de Incentivo a o ... http://t.co/I7occ2nK3m",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "para o Plano de Incentivo a o",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "amod": 1,
+          "det": 1
+        }
+      }
+    }
+  ]
+}

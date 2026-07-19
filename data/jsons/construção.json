@@ -1,0 +1,97 @@
+{
+  "lemma": "construção",
+  "lemma_base": "construção",
+  "senses": [
+    {
+      "pt_roleset": "construção.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "construction.01",
+      "english_roleset_source": "verb-construct.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/construction.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "builder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "construction"
+        },
+        {
+          "id": "Arg2",
+          "desc": "material, start state"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": "end state"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469457551306665984l",
+          "text": "Notas gerais A PETROBRAS ( PETR4 ) esclareceu ontem que todos os contratos e aditivos para a conturbada construção ... http://t.co/DTTsUJsh3i",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456412254607777792l",
+          "text": "setor financeiro ganha participação e construção perde . ABEV3 , UGPA3 , ITUB4 , PCAR4 , BBDC4 , BRFS3 , CIEL3 , BBSE3 TODAS GANHARAM entre 30 a 50 %",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455679053480345600l",
+          "text": "$TBLE3 - Tractebel ( tble-nm ) - Obras De Construcao De o Complexo Eolico Santa Monica http://t.co/BA3MoUuYIg",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Complexo Eolico Santa Monica",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "flat:name": 1
+        }
+      }
+    }
+  ]
+}

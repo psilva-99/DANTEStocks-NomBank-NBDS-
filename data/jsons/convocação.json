@@ -1,0 +1,79 @@
+{
+  "lemma": "convocação",
+  "lemma_base": "convocação",
+  "senses": [
+    {
+      "pt_roleset": "convocação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "convocation.01",
+      "english_roleset_source": "verb-meet.03",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/convocation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "one party"
+        },
+        {
+          "id": "Arg1",
+          "desc": "reason to meet"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other party"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_454753167272869888l",
+          "text": "$GOLL4 - GOL divulga Edital de Convocação para AGO http://t.co/gIyjNJ73G0",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "para a AGO",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459711941817417728l",
+          "text": "$HGTX3 - Cia Hering ( hgtx-nm ) - Age - 2a Convocacao - 07/05/2014 - 15h / Aumento De o Cap . http://t.co/dyHY6t7JGO",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

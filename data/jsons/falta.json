@@ -1,0 +1,80 @@
+{
+  "lemma": "falta",
+  "lemma_base": "falta",
+  "senses": [
+    {
+      "pt_roleset": "falta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "lack.01",
+      "english_roleset_source": "verb-lack.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/lack.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "non)possessor"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing lacked"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449250160464625664l",
+          "text": "Day trade VALE5 Previsto e evitado zona de alto risco e falta de liquidez absurda 27-03-14 http://t.co/FZV3HPrEG3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de liquidez absurda",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444560724937809920l",
+          "text": "BISA3 - AGE sobre OPA não foi realizada por falta de quórum A AGE de a Brookfield Incorporações que deliberaria ... http://t.co/UHOEPbGUFS",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de quórum",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "amod": 1,
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,246 @@
+{
+  "lemma": "divulgação",
+  "lemma_base": "divulgação",
+  "senses": [
+    {
+      "pt_roleset": "divulgação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "release.01",
+      "english_roleset_source": "verb-release.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/release.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "releaser"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing released"
+        },
+        {
+          "id": "Arg2",
+          "desc": "released from"
+        },
+        {
+          "id": "Arg3",
+          "desc": "released to"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449511006461763584l",
+          "text": "$RSID3 - Rossi Resid ( rsid-nm ) - Alteracao De a Politica De Divulgacao De Fato Relevante http://t.co/gJVTbOY0uA",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Fato Relevant",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_455801774260363264l",
+          "text": "$BVMF3 - Bmfbovespa ( bvmf-nm ) - Cronograma De Divulgacao De Resultados http://t.co/iZYeQRSYPv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Resultados",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446607247507226625l",
+          "text": "#PETROBRAS #PETR4 Depois de a divulgação de o GOLPE aplicado contra a petroleira , vai ser difícil o papel não devolver a alta de os últimos dias .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o GOLPE aplicado contra a petroleira",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456867956006588416l",
+          "text": "@coroneldoblog Apenas a perspectiva de divulgação de nova pesquisa de o IBOPE , logo mais , faz Petrobrás ( PETR4 ) disparar em a Bovespa de novo .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de nova pesquisa",
+            "Arg2": "de o IBOPE",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459751315653267456l",
+          "text": "@tovaga @Ary_AntiPT @Folhaovento Se ainda estivesse em a Bolsa compraria hoje Petr4 e Petr3 e venderia , após a divulgação Pesquisa dia 28 rs !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Pesquisa dia 28",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459784600454447104l",
+          "text": "RT @Andraus_adv : @tovaga @Ary_AntiPT @Folhaovento Se ainda estivesse em a Bolsa compraria hoje Petr4 e Petr3 e venderia , após a divulgação Pesquisa …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Pesquisa dia 28",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460765456425820160l",
+          "text": "E hoje em o fim de a tarde teremos a divulgação de mais uma pesquisa eleitoral de a presidência . Será que PETR4 busca mais um fôlego ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de mais uma pesquisa eleitoral de a presidência",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459389829080690689l",
+          "text": "$DTEX3 - Duratex ( dtex-nm ) - Material A Disposicao ( politicas De Divulg. E De Negoc. ) http://t.co/ZG4dXwIhJf",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459033882185445376l",
+          "text": "Dia 28 de abril ( segunda ) haverá divulgacao de Pesquisa Eleitoral para Presidente contratada por a CNT … #Petr4 Talvez recupere",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Pesquisa Eleitoral para Presidente contratada por a CNT",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl:agent",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451686121500856320l",
+          "text": "$VALE3 - Vale ( vale-n1 ) - Informa Datas De Divulgacao De o Desempenho De o 1o. T/2014 http://t.co/HrsAHWIwYv",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Desempenho De o 1o. T/2014",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462331459194601472l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Material A Disposicao ( politica De Divulgacao E Negociacao ) http://t.co/hIu0WyzXA6",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 7,
+          "obl": 1,
+          "obl:agent": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

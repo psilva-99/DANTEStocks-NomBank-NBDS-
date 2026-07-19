@@ -1,0 +1,143 @@
+{
+  "lemma": "comissão",
+  "lemma_base": "comissão",
+  "senses": [
+    {
+      "pt_roleset": "comissão.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "commission.02",
+      "english_roleset_source": "verb-commission.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/commission.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "granter, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "task"
+        },
+        {
+          "id": "Arg2",
+          "desc": "recipient"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448936578715774977l",
+          "text": "RT @bovespabrokers : A Petrobras #PETR4 confirmou hoje que abriu uma comissão interna ' de alto nível ' para apurar os detalhes de a compra de a r …",
+          "realization": {
+            "Arg0": "A Petrobras",
+            "Arg1": "para apurar os detalhes de a compra de a r",
+            "Arg2": "comissão interna",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod:wtrunc",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458779058290315264l",
+          "text": "$PETR4 RT @agenciabrasil : Comissão externa de a Câmara que investiga a Petrobras aprova requerimentos http://t.co/q7VgfIdeUu",
+          "realization": {
+            "Arg0": "de a Câmara",
+            "Arg1": "que investiga a Petrobras",
+            "Arg2": "Comissão externa",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "obj",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446064765740515328l",
+          "text": "Olha lá a sujeira ... Governo terá maioria em comissão que vai investigar a Petrobrás #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "que vai investigar a Petrobrás",
+            "Arg2": "comissão",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obj",
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448936393461731328l",
+          "text": "A Petrobras #PETR4 confirmou hoje que abriu uma comissão interna ' de alto nível ' para apurar os detalhes de a compra de a refinaria de Pasadena .",
+          "realization": {
+            "Arg0": "A Petrobras",
+            "Arg1": "para apurar os detalhes de a compra de a r",
+            "Arg2": "comissão interna",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obj",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443546384562917376l",
+          "text": "#PETR4 RT @valor_economico : Câmara derrota governo e aprova comissão para investigar Petrobras http://t.co/p37D1t2ARU",
+          "realization": {
+            "Arg0": "Câmara",
+            "Arg1": "para investigar Petrobras",
+            "Arg2": "comissão",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obj",
+            "Arg2": "obj",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3,
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod:wtrunc": 1,
+          "obj": 4
+        },
+        "Arg2": {
+          "amod": 3,
+          "obl": 1,
+          "obj": 1
+        }
+      }
+    }
+  ]
+}

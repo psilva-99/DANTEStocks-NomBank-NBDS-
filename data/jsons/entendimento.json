@@ -1,0 +1,138 @@
+{
+  "lemma": "entendimento",
+  "lemma_base": "entendimento",
+  "senses": [
+    {
+      "pt_roleset": "entendimento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "understanding.01",
+      "english_roleset_source": "verb-understand.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/understanding.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "understander"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing understood"
+        },
+        {
+          "id": "Arg2",
+          "desc": "attribute of arg1"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_443765996206444544l",
+          "text": "Se instalada a #CPI em a #PETR4 as ações irão subir . O entendimento geral é que haverá uma gestão mais ética , profissional e menos politica .",
+          "realization": {
+            "Arg0": "geral",
+            "Arg1": "é que haverá uma gestão mais ética , profissional e menos politica",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443800394989580289l",
+          "text": "RT @bovespabrokers : Se instalada a #CPI em a #PETR4 as ações irão subir . O entendimento geral é que haverá uma gestão mais ética , profissiona …",
+          "realization": {
+            "Arg0": "geral",
+            "Arg1": "é que haverá uma gestão mais ética , profissional e menos politica",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "amod": 2
+        },
+        "Arg1": {
+          "amod": 1,
+          "obj": 1
+        }
+      }
+    },
+    {
+      "pt_roleset": "entendimento.02",
+      "pt_sense_index": 2,
+      "pt_sense_hint": 2,
+      "english_roleset": "understanding.02",
+      "english_roleset_source": "verb-agree.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/understanding.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agreer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "propostition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other entity agreeing"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_456410278024839169l",
+          "text": "$CIEL3 - Cielo ( ciel-nm ) - Memorando De Entendimentos Para Participar De a Stelo http://t.co/1XTdyCc6tK",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Para Participar De a Stelo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "obl": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "lemma": "estimativa",
+  "lemma_base": "estimativa",
+  "senses": [
+    {
+      "pt_roleset": "estimativa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "estimate.01",
+      "english_roleset_source": "verb-estimate.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/estimate.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "estimator"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing estimated"
+        },
+        {
+          "id": "Arg2",
+          "desc": "estimated-to-be, attribute of arg1"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_461524178286706689l",
+          "text": "#vale5 lucra 5,91 bi em o trimestre , a estimativa de mercado por a agência Bloomberg era de um lucro líquido de R$ 6,23 bilhões em o período .",
+          "realization": {
+            "Arg0": "por a agência Bloomberg",
+            "Arg1": "de mercado",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444448840863997952l",
+          "text": "A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritário ! ! ! #PETR4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de prejuízo para a Petrobras em o caso de racionamento",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444449194305409024l",
+          "text": "RT @chrinvestor : A estimativa de prejuízo para a Petrobras em o caso de racionamento é de R$ 620 milhões de dólares . Pobre acionista minoritá …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de prejuízo para a Petrobras em o caso de racionamento",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 3
+        }
+      }
+    }
+  ]
+}

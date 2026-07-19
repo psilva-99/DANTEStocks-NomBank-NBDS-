@@ -1,0 +1,64 @@
+{
+  "lemma": "aliança",
+  "lemma_base": "aliança",
+  "senses": [
+    {
+      "pt_roleset": "aliança.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "alliance.01",
+      "english_roleset_source": "verb-ally.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/alliance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, causer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "entity united"
+        },
+        {
+          "id": "Arg2",
+          "desc": "entity united with"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446307389328076801l",
+          "text": "#GOLL4 - GOL negocia aliança com aéreas asiáticas - http://t.co/WLYifxc5Cc",
+          "realization": {
+            "Arg0": "GOL",
+            "Arg1": null,
+            "Arg2": "aéreas asiáticas",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg2": {
+          "amod": 1
+        }
+      }
+    }
+  ]
+}

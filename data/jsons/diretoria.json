@@ -1,0 +1,119 @@
+{
+  "lemma": "diretoria",
+  "lemma_base": "diretoria",
+  "senses": [
+    {
+      "pt_roleset": "diretoria.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "board.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/board.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "quantified/descriptor"
+        },
+        {
+          "id": "Arg2",
+          "desc": "employer/leader/pivot"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary-theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468757309192425472l",
+          "text": "#PETR4 ' contrato de 1 milhão , 2 milhões de dolares nem passam por a autorização de a diretoria ' Ex-presidente de a @petrobras em a CPI hahahahahaha",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468757591590715392l",
+          "text": "RT @ClaudioDeLucca : #PETR4 ' contrato de 1 milhão , 2 milhões de dolares nem passam por a autorização de a diretoria ' Ex-presidente de a @petrobra …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_467280097024942080l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Criacao De a Diretoria De Regulacao http://t.co/H9uC5PrF4F",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "De Regulação",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "case",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448066819480629248l",
+          "text": "$PETR3 - Petrobras ( petr ) - Mudanca Em a Diretoria Executiva De a Petrobras Distribuidora http://t.co/3n7vTntAVX",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Executiva",
+            "Arg2": "De a Petrobras",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg2": {
+          "case": 1,
+          "nmod": 1
+        },
+        "Arg1": {
+          "amod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "lemma": "discussão",
+  "lemma_base": "discussão",
+  "senses": [
+    {
+      "pt_roleset": "discussão.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "discussion.01",
+      "english_roleset_source": "verb-discuss.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/discussion.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "discussant"
+        },
+        {
+          "id": "Arg1",
+          "desc": "topic"
+        },
+        {
+          "id": "Arg2",
+          "desc": "conversation partner, if explicit"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_451152647618166786l",
+          "text": "Discussão sobre Investimentos : Carteira Simulada , CSNA3 , USIM5 e GRND3 . http://t.co/9XXKzByFls",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "sobre Investimentos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454023247101562882l",
+          "text": "Discussão sobre Investimentos : Carteira Simulada , USIM5 , CSNA3 e GRND3 http://t.co/q5pYdmRKIA",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "sobre Investimentos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

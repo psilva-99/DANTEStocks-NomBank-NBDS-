@@ -1,0 +1,64 @@
+{
+  "lemma": "atestado",
+  "lemma_base": "atestado",
+  "senses": [
+    {
+      "pt_roleset": "atestado.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "certificate.01",
+      "english_roleset_source": "verb-prove.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/certificate.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "prover"
+        },
+        {
+          "id": "Arg1",
+          "desc": "propostition"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary, proved-to"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_445603272754466816l",
+          "text": "já pode emitir atestado de óbito de a #PETR4 ? o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de óbito",
+            "Arg2": "de a #PETR4",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

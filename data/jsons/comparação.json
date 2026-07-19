@@ -1,0 +1,120 @@
+{
+  "lemma": "comparação",
+  "lemma_base": "comparação",
+  "senses": [
+    {
+      "pt_roleset": "comparação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "comparison.01",
+      "english_roleset_source": "verb-compare.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/comparison.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity making comparison"
+        },
+        {
+          "id": "Arg1",
+          "desc": "first item in comparison"
+        },
+        {
+          "id": "Arg2",
+          "desc": "second item incomparison, usually prepositional"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459396230943358976l",
+          "text": "#FIBR3 O cenário de preço para a celulose é estável em abril , em a comparação com março , afirmou o presidente de a ... http://t.co/HjpD6gPU9O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em abril",
+            "Arg2": "com março",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456818046393262080l",
+          "text": "#FLRY3 interessante compra com stop em R$ 16,35 não ? Será que vai ser vendida ? Em comparação com a #DASA3 seria perto de R$ 21 !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "com a dasa",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "case",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443438866146807809l",
+          "text": "@picapautrader https://t.co/lN1y2KpkOJ comparação #PETR4 x #SPX quer dizer comparação só a título didático pq nem se compara msm",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#PETR4 x #SPX",
+            "Arg2": "#PETR4 x #SPX",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443438866146807809l",
+          "text": "@picapautrader https://t.co/lN1y2KpkOJ comparação #PETR4 x #SPX quer dizer comparação só a título didático pq nem se compara msm",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "obl": 1,
+          "nmod": 1
+        },
+        "Arg2": {
+          "nmod": 2,
+          "case": 1
+        }
+      }
+    }
+  ]
+}

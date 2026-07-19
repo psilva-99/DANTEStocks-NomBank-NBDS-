@@ -1,0 +1,213 @@
+{
+  "lemma": "causa",
+  "lemma_base": "causa",
+  "senses": [
+    {
+      "pt_roleset": "causa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "reason.02",
+      "english_roleset_source": "verb-motivate.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/reason.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "justifier"
+        },
+        {
+          "id": "Arg1",
+          "desc": "decision or attitude being shown to be right"
+        },
+        {
+          "id": "Arg2",
+          "desc": "explicit instrument"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary predication on arg1"
+        },
+        {
+          "id": "Arg4",
+          "desc": "justified to, beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_452088859585966080l",
+          "text": "Um esclarecimento : minha carteira é muito sobrecarregada de VALE5 por causa de opções . PETR4 tenho 24 % . Ou seja : 80 % de a carteira PETROVALE !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de opções",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449564010414088193l",
+          "text": "Mas não dá para ficar sem PETR4 em a carteira , por causa de a liquidez em opções . Essas últimas altas reaqueceram violentamente o mercado .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a liquidez em opções",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449569154329489408l",
+          "text": "RT @lambari_trader : Mas não dá para ficar sem PETR4 em a carteira , por causa de a liquidez em opções . Essas últimas altas reaqueceram violentame …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a liquidez em opções",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443551844603035648l",
+          "text": "Jean Willas tá esperneando em o TT por causa de a debandada de o PMDB em a votação de a Petr4 ... Espera q vem mais , ser nojento ! !",
+          "realization": {
+            "Arg0": "Jean Willis",
+            "Arg1": "de a debandada de o PMDB",
+            "Arg2": null,
+            "Arg3": "em a votação de a Petr4",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451703359612157952l",
+          "text": "#PETR4 por R$ 16,00 em o leilão ? Caraca ... o fechamento ajustado - por causa de o JCP - de ontem foi em os R$ 15,57 ... o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o JCP",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459790105390374913l",
+          "text": "Arrisquei em abev3 por causa de uma shooting star meio falsa . Por o menos as Mm estão quase revertendo para subida , mas foi arriscado .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de uma shooting star meio falsa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449175888555692032l",
+          "text": "vamos ver como a #PETR4 se comporta em o teste de os R$ 14,7 agora ... ( que arrancada doida ... 2x por causa de o IBOPE , que legal ... )",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de o IBOPE",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451401534996496384l",
+          "text": "@AlexCanoas13 por sinal , viste a PETR4 hj ? Tá disparando justamente por causa de um boato de que a Datafolha deve apontar outra queda de a D.",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de um boato de que a Datafolha deve apontar outra queda de a D.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456173625939599360l",
+          "text": "@danielschettin0 Tô com ti ... VALE5 tem um peso MONSTRUOSO em a minha carteira , por causa de a venda coberta de opções . abç !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a venda coberta de opções",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 7,
+          "amod": 1,
+          "obl": 1
+        },
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg3": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "lemma": "coragem",
+  "lemma_base": "coragem",
+  "senses": [
+    {
+      "pt_roleset": "coragem.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "courage.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/courage.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "action"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_449222814416240641l",
+          "text": "Bora #llxl3 coragem rsrsr",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449224885110603776l",
+          "text": "vai fazer o mesmo q a #hrt . dá uma animadinha e dopo se enterra ! RT @Live_Trade : Bora #llxl3 coragem rsrsr",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_472432083663876097l",
+          "text": "E quem tem coragem de vender #BRFS3 ? !",
+          "realization": {
+            "Arg0": "quem",
+            "Arg1": "de vender #BRFS3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443384320859070464l",
+          "text": "Cade coragem para fazer um DT em a #VALE5 aí em a casa de os 26,46 , de o jeito que as coisas andam é um stop em a certa .. #ERROR! sigo observando .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "para fazer um DT em a #VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "obj": 2
+        }
+      }
+    }
+  ]
+}

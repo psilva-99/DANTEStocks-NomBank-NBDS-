@@ -1,0 +1,57 @@
+{
+  "lemma": "custódia",
+  "lemma_base": "custódia",
+  "senses": [
+    {
+      "pt_roleset": "custódia.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "custody.01",
+      "english_roleset_source": "verb-care.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/custody.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "carer, agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing cared for/about"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_461531622194806785l",
+          "text": "O crédito de os #proventos de a #vale5 entrou hj . Como a ação está em queda será uma boa aumentar a custódia com esse dinheiro novo .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {}
+    }
+  ]
+}

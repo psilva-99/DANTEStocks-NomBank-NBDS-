@@ -1,0 +1,607 @@
+{
+  "lemma": "entrada",
+  "lemma_base": "entrada",
+  "senses": [
+    {
+      "pt_roleset": "entrada.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "entrance.01",
+      "english_roleset_source": "verb-enter.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/entrance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "entity entering"
+        },
+        {
+          "id": "Arg1",
+          "desc": "place of thing entered"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469104796453314561l",
+          "text": "#PETR4 já deu entrada e deu 1 % Trade fechado !",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445922438598369280l",
+          "text": "#FicaDica para quem é novo e quer investir , compre ações de a Petrobras #PETR4 esse valor esta muito atrativo para entrada .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453912668697821184l",
+          "text": "@Live_Trade Marcos , o que vc acha de #FIBR3 ? vale uma entrada em a cp ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a cp",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452082288311169025l",
+          "text": "@CaciqueInvest @Live_Trade galera , elet6 ainda vale entrada ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444946474485678081l",
+          "text": "@WallFigueiredo Entrada EVEN3 ( 25/02/2014 ) até o décimo dia 22 % de ganho ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "EVEN3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_472452386892808192l",
+          "text": "@malcaetano : vários papéis com IMA - Entrada intetessante : GGBR4 a 0.85 , VALE5 a 0.85 . Surgindo compradores em o mercado ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448862292047036418l",
+          "text": "#cmig4 entrada por o diário , mas comi bola ! ! !",
+          "realization": {
+            "Arg0": "#cmig4",
+            "Arg1": "por o diário",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449245565361344512l",
+          "text": "EMBR3 - Entrada http://t.co/3cK7jmozkU",
+          "realization": {
+            "Arg0": "EMBR3",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460856767120154624l",
+          "text": "#cemig4 ta interessante . Recuperou a perda e mm já recomendou entrada . #goll4 perde força e tem suporte a 13,15 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452061550594236416l",
+          "text": "$TBLE3 - Tractebel ( tble-nm ) - Entrada Em Operacao Comercial De a Central Eolica Mundau http://t.co/zejzckVYtT",
+          "realization": {
+            "Arg0": "$TBLE3",
+            "Arg1": "Em Operacao Comercial",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461132325490016256l",
+          "text": "Galera , ótima oportunidade de entrada em a VALE5 , Vale de o Rio Doce . Gráfico formando a famosa figura … http://t.co/9NFGz77jUG",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445988101891321856l",
+          "text": "Analisem KROT3 que está performando o IFR multiplo conjugado com o FAD anormal para entradas - em as máximas - múltiplas em a ponta vendedora",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_466781862233657344l",
+          "text": "@ferrisss : meus números para JBSS3 foram entrada ontem a 7.87 com obj = 8.07 ( + 2.5 % ) e 8.47 ( 7.6 % ) . Hj bateu 8.03 . Abx http://t.co/amuFApN1IK",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450968255876698112l",
+          "text": "BTOW3 E CTIP3 performando setup de o IFR múltiplo com FAD anormal p/ venda - entradas múltiplas em as máximas de cada dia se continuar subindo",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em as máximas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459789144857010177l",
+          "text": "Goau4 recuperou as perdas e indica entrada por as MM . Volume de compra está aumentando , porém acho que vou diminuir a exposição .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "por as MM",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446395248777113600l",
+          "text": "Todos papeis postados aqui e em o Facebook deram entrada hj : Brkm5 Petr4 Winj14 ... fora os de ontem Goll4 e Klbn4 Show ! ! !",
+          "realization": {
+            "Arg0": "Todos Papeis",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443833598899007489l",
+          "text": "#BBAS3 #PlimPlim DT entrada e saída compartilhada em o TWITTER quem acreditou fez uma bocada . http://t.co/K03MhZTWlY http://t.co/BJrQI1smCt",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441652670643052544l",
+          "text": "#pdgr3 fez PB 1,51 se não perder fundo , já começo a monitorar possível entrada ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_445626997151399936l",
+          "text": "E isso em um prazo de 1 mês . Imaginem o tamanho de a força compradora ? Vale entrada pra manter em carteira em curto prazo ' CP ' . #CSNA3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "pra manter em carteira em curto prazo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453598879377002497l",
+          "text": "@Live_Trade PARABENS ! ! ! Vale uma entrada em PETR4 ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456413176565755904l",
+          "text": "@Live_Trade qual ponto de entrada em #Oibr4 ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em #Oibr4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452077337124028417l",
+          "text": "@Live_Trade depois ainda diz q ñ dou os ptos de entrada nem saída ... Olha aí o pto de entrada em #VALE5 a os R$ 26,XX e ainda mantendo ela ..",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452077337124028417l",
+          "text": "@Live_Trade depois ainda diz q ñ dou os ptos de entrada nem saída ... Olha aí o pto de entrada em #VALE5 a os R$ 26,XX e ainda mantendo ela ..",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em #VALE5 a os R$ 26,XX",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443063880676159488l",
+          "text": "SBSP3 com um belo sinal de entrada de uma WW #volume http://t.co/ONawWUOwE3",
+          "realization": {
+            "Arg0": "de uma WW",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449334297439535104l",
+          "text": "@ferrisss Agora vc não pode negar e viu eu postar petr4 a 12,5 , mmxm3 a 3,34 , artr3 ecor3 e tantas outras entradas e objetivos",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452045232570634240l",
+          "text": "#VALE5 para quem se interessou esta foi a operação q montei ontem , meu ponto de entrada foi justamente a onde a ... http://t.co/mgseUyA35t",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "foi justamente a onde a",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443028707977216000l",
+          "text": "VALE5 performando IFR multiplo conjugado com FAD anormal - setup de entradas múltiplas - caso continue a queda amanhã tem nova analise",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446010904342429696l",
+          "text": "@Live_Trade klbn4 , aciona entrada também ?",
+          "realization": {
+            "Arg0": "klbn4",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446664865764372481l",
+          "text": "#cyre3 e Rsid3 cfe postado de manhã , entrada e com um bom lucro",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446346600646848512l",
+          "text": "RT @felipefdeaguiar : #FicaDica para quem é novo e quer investir , compre ações de a Petrobras #PETR4 esse valor esta muito atrativo para entra …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444164181752053760l",
+          "text": "#petr4 King Kong segurou ... hummmm observo p/ entrada",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3,
+          "nmod": 4
+        },
+        "Arg1": {
+          "nmod": 10,
+          "amod": 1,
+          "det": 1
+        }
+      }
+    }
+  ]
+}

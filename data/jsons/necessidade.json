@@ -1,0 +1,64 @@
+{
+  "lemma": "necessidade",
+  "lemma_base": "necessidade",
+  "senses": [
+    {
+      "pt_roleset": "necessidade.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "need.01",
+      "english_roleset_source": "verb-need.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/need.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "needer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing needed"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_457735688990228481l",
+          "text": "PPS é diff de os outros Socialistas ? Pasadenagate : novos documentos complicam Dilma e apontam necessidade de CPI #PETR4 http://t.co/XvDEzBtB98",
+          "realization": {
+            "Arg0": "novos documentos",
+            "Arg1": "de CPI",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

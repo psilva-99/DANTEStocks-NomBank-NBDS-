@@ -1,0 +1,115 @@
+{
+  "lemma": "corte",
+  "lemma_base": "corte",
+  "senses": [
+    {
+      "pt_roleset": "corte.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "cut.02",
+      "english_roleset_source": "verb-cut.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/cut.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "cutter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing reduced"
+        },
+        {
+          "id": "Arg2",
+          "desc": "amount reduced by"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start point"
+        },
+        {
+          "id": "Arg4",
+          "desc": "end point"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_442001677147996160l",
+          "text": "#VALE5 : O mau humor em torno de a China e notícias de que algumas siderúrgicas de o País sofreram corte de ... http://t.co/0rnoXMSuoZ",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "fixed",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448797349025165312l",
+          "text": "$BBAS3 - Novo corte : BB , Bradesco e Itaú rebaixados [ Newsletter ADVFN ] http://t.co/t9T6MkzNhI",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448797354314170368l",
+          "text": "$ITUB4 - Novo corte : BB , Bradesco e Itaú rebaixados [ Newsletter ADVFN ] http://t.co/3Jddfo4dUz",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448797359468994560l",
+          "text": "$BBDC4 - Novo corte : BB , Bradesco e Itaú rebaixados [ Newsletter ADVFN ] http://t.co/zh1zDo1eQ1",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "fixed": 1
+        }
+      }
+    }
+  ]
+}

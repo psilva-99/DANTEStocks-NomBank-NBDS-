@@ -1,0 +1,250 @@
+{
+  "lemma": "gestor",
+  "lemma_base": "gestor",
+  "senses": [
+    {
+      "pt_roleset": "gestor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "manager.01",
+      "english_roleset_source": "verb-manage.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/manager.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "job holder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "rank"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_468921386799747072l",
+          "text": "A gente estamos em a contra-mão de o @ferrisss ! ! Amanhã , nossa gestora vai vender JBSS3 ! ! Call de venda , vai cair muito ! !",
+          "realization": {
+            "Arg0": "gestora",
+            "Arg1": null,
+            "Arg2": "nossa",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "det",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469123255383916545l",
+          "text": "A gente estamos vendendo JBSS3 aqui em a gestora , como eu disse ontem ! ! Vamos derrubar ! ! O @ferrisss que me desculpe ! !",
+          "realization": {
+            "Arg0": "gestora",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obl",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463667443161133056l",
+          "text": "Em a Bovespa , gestores definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , RENT3 , UGPA3 , e outras",
+          "realization": {
+            "Arg0": "gestores",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463670775506272257l",
+          "text": "RT @garimpodeacoes : Em a Bovespa , gestores definem para época de as eleições ações de boa liquidez , como ABEV3 , BBAS3 , CCRO3 , ITUB4 , PCAR4 , REN …",
+          "realization": {
+            "Arg0": "gestores",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469214626081947648l",
+          "text": "@InutiliumX Foram vocês de a gestora que derrubaram BBAS3 hoje ? ? ?",
+          "realization": {
+            "Arg0": "gestora",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471628526152454144l",
+          "text": "' Vale vai trazer muitos frutos para quem investir ' , diz gestor de fundo : Leonardo Messer , ge ... http://t.co/KkMcTlfCI6 #infomoney #vale5",
+          "realization": {
+            "Arg0": "gestor",
+            "Arg1": "de fundo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_471708570082639873l",
+          "text": "Vale vai trazer muitos frutos para quem investir ' , diz gestor de fundo http://t.co/s9IQkrTxMV #VALE4 #VALE5",
+          "realization": {
+            "Arg0": "gestor",
+            "Arg1": "de fundo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446682863627300864l",
+          "text": "Bancos , varejo , petróleo e siderurgia , as opiniões de um gestor sobre 4 setores : O destaque ... http://t.co/HfazYF2uc0 #infomoney #vale5",
+          "realization": {
+            "Arg0": "gestor",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469210740575203329l",
+          "text": "RT @InutiliumX : Olha lá , @ferris ! ! A gente aqui de a gestora jogamos a JBSS3 lá em a mínima ! ! Eu cantei a pedra ontem ! ! Vamos recomprar lá n …",
+          "realization": {
+            "Arg0": "gestora",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_472167110316023808l",
+          "text": "Vice de o Bradesco entra para o conselho de a Vale , mais 3 empresas agitam a noite : Maior gestor ... http://t.co/8UfJ7jaUiO #infomoney #vale5",
+          "realization": {
+            "Arg0": "gestor",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis:strunc",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_468930214962429954l",
+          "text": "A gente estamos falando sério ! ! Amanhã , a gestora vai vender JBSS3 ! ! Vamos comandar a derrubada , assim como fizemos com PETR4 ! !",
+          "realization": {
+            "Arg0": "gestora",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 6,
+          "obl": 1,
+          "nmod": 3,
+          "parataxis:strunc": 1
+        },
+        "Arg2": {
+          "det": 1
+        },
+        "Arg1": {
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

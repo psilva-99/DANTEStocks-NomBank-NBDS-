@@ -1,0 +1,64 @@
+{
+  "lemma": "antro",
+  "lemma_base": "antro",
+  "senses": [
+    {
+      "pt_roleset": "antro.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "hideaway.01",
+      "english_roleset_source": "verb-hide.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/hideaway.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "hider"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing hidden"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "location"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_447207141154504706l",
+          "text": "Petrobras #PETR4 é um antro de corrupção e inepcia .",
+          "realization": {
+            "Arg0": "Petrobras #PETR4",
+            "Arg1": "corrupção e inépcia",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

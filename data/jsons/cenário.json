@@ -1,0 +1,175 @@
+{
+  "lemma": "cenário",
+  "lemma_base": "cenário",
+  "senses": [
+    {
+      "pt_roleset": "cenário.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "scenario.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/scenario.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_470924397415759872l",
+          "text": "por o andar de a carruagem será assim o dia todo ... #PETR4 rondando a região de os R$ 17,75 ... Ou será que o cenário muda um pouco ? ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "muda um pouco ?",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449181054575050752l",
+          "text": "@Live_Trade Manda um cenário de fundo para OIBR4 ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de fundo para OIBR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459396230943358976l",
+          "text": "#FIBR3 O cenário de preço para a celulose é estável em abril , em a comparação com março , afirmou o presidente de a ... http://t.co/HjpD6gPU9O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de preço para a celulose",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456146063598944256l",
+          "text": "RT @Pepez_Legal : @coroneldoblog Amigo , está acompanhando PETR4 ? ? > http://t.co/WxnN4AOaKT A Graça está piorando ainda mais o cenário .. rs …",
+          "realization": {
+            "Arg0": "A Graça",
+            "Arg1": "piorando ainda mais o",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456195852424314880l",
+          "text": "Fundo de pensão de a Vale vê cenário difícil e volta a apostar em títulos públicos : O nível d ... http://t.co/Uqlfqrs4Jy #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "difícil",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444187355206144002l",
+          "text": "@ferrisss cai pra 43.8 k teremos crise em o cenário internacional e vai sobrar pra #VALE5 e #PETR4 devido a a desaceleração e gás respectivamente",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "internacional",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_466633356126740481l",
+          "text": "O melhor cenário em uma operação de venda coberta de opções é vender OTM e a ação subir . É o que está acontecendo com VALE5 , em este momento .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "O melhor cenário em uma operação de venda coberta de opções é vender OTM e a ação subir . É o que está acontecendo com VALE5 , em este momento .",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "obl": 3,
+          "nmod": 1,
+          "det": 1,
+          "amod": 2
+        },
+        "Arg0": {
+          "nsubj": 1
+        }
+      }
+    }
+  ]
+}

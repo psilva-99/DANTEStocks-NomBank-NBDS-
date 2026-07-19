@@ -1,0 +1,216 @@
+{
+  "lemma": "contrato",
+  "lemma_base": "contrato",
+  "senses": [
+    {
+      "pt_roleset": "contrato.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "contract.01",
+      "english_roleset_source": "verb-contract.02",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/contract.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "causer of contract"
+        },
+        {
+          "id": "Arg1",
+          "desc": "reason, purpose"
+        },
+        {
+          "id": "Arg2",
+          "desc": "contracted with"
+        },
+        {
+          "id": "Arg3",
+          "desc": "payment ammount"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_455723336879075328l",
+          "text": "Notas gerais A PETROBRAS ( PETR4 ) assinou com o Grupo Électricité de France contrato para a venda de sua ... http://t.co/h3dMUjViMQ",
+          "realization": {
+            "Arg0": "A PETROBRAS ( PETR4 )",
+            "Arg1": "para a venda de sua",
+            "Arg2": "com o Grupo Électricité de France",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod:strunc",
+            "Arg2": "flat:name",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453581504170717184l",
+          "text": "#BOVESPA #CCRO3 CCR divulga fato relevante sobre assinatura de o contrato de concessão - Aeroporto de Confins . http://t.co/hFQSZwrqSn #BR",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de concessão - Aeroporto de Confin",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461484549030297600l",
+          "text": "Hoje tem leilão emergencial de energia , que depende largamente de ELET6 . Boa oportunidade para fechar contratos estáveis e de margem maior .",
+          "realization": {
+            "Arg0": "Boa oportunidade",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "parataxis",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456479295968272384l",
+          "text": "#CPFE3 - CPFL fecha contrato de energia de Serra de a Mesa e não disputará leilão A-0 - http://t.co/Hk3v5n3Xap",
+          "realization": {
+            "Arg0": "CPFL",
+            "Arg1": "de energia de Serra de a Mesa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453237939460669440l",
+          "text": "#SANB11 - Santander Brasil assina contrato para compra de a Getnet - http://t.co/H56HB4FQ41",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "para compra",
+            "Arg2": "de a Getnet",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453504179232079872l",
+          "text": "$CCRO3 - Ccr Sa ( ccro-nm ) - Assinatura De o Contrato De Concessao De o Aeroporto De Confins http://t.co/GRgDTOBXof",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Concessao De o Aeroporto De Confins",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_472334907549954048l",
+          "text": "#PETR4 A Petrobras contestou hoje que o conselho de a estatal tenha aprovado , em apenas 14 dias , dois contratos sem ... http://t.co/AJpnCodlAV",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "sem",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod:strunc",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443031972336525312l",
+          "text": "#IBOV #KLBN4 Klabin fecha contrato com a Pöyry para Projeto Puma : http://t.co/WPqvXaEQB2",
+          "realization": {
+            "Arg0": "Klabin",
+            "Arg1": "para Projeto Puma",
+            "Arg2": "com a Pöyry",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "flat:name",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449526805775790080l",
+          "text": "PETR4 sobe 8 % e a gremistada preocupada com o contrato de as estruturas temporárias ... Vida injusta essa !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de as estruturas temporárias",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 3,
+          "parataxis": 1
+        },
+        "Arg1": {
+          "nmod:strunc": 2,
+          "nmod": 3,
+          "flat:name": 2,
+          "amod": 1
+        },
+        "Arg2": {
+          "flat:name": 1,
+          "nmod": 2
+        }
+      }
+    }
+  ]
+}

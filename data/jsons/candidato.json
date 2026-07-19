@@ -1,0 +1,236 @@
+{
+  "lemma": "candidato",
+  "lemma_base": "candidato",
+  "senses": [
+    {
+      "pt_roleset": "candidato.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "candidate.01",
+      "english_roleset_source": "verb-nominate.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/candidate.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "nominator"
+        },
+        {
+          "id": "Arg1",
+          "desc": "candidate"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "role of arg1"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_450605466079723520l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Material A Disp. ( indic. De Candidatos A Membros De o Ca ) http://t.co/myIM01vKEt",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Candidatos",
+            "Arg2": "De o Ca",
+            "Arg3": "A Membros",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450979739944382464l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Material A Disposicao ( candidatos A Membros De o Ca E Cf ) http://t.co/l9Z7Qm4mAV",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "candidatos",
+            "Arg2": "De o Ca E Cf",
+            "Arg3": "A Membros",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "parataxis",
+            "Arg2": "nmod",
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451724418772131840l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Material A Disposicao ( indicacao De Candidatos ) http://t.co/yIXX3MnjIO",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Candidatos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441209778648653824l",
+          "text": "$PETR3 - Petrobras ( petr ) - candidatos Indicados Por o Acionista Controlador Para O Ca E Cf http://t.co/D7kOIsDzeZ",
+          "realization": {
+            "Arg0": "Indicados Por o Acionista Controlador",
+            "Arg1": "candidatos",
+            "Arg2": "Para O Ca E Cf",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": "root",
+            "Arg2": "obl",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441215300357586944l",
+          "text": "$PETR3 - Petrobras ( petr ) - Candidatos Ind. Por os Acionistas Nao Controladores P. Ca E Cf http://t.co/3ikzgdwt6j",
+          "realization": {
+            "Arg0": "Ind. Por os Acionistas Nao Controladores",
+            "Arg1": "Candidatos",
+            "Arg2": null,
+            "Arg3": "P. Ca E Cf",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": "root",
+            "Arg2": null,
+            "Arg3": "obl",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441216198681055232l",
+          "text": "$PETR3 - Petrobras ( petr ) - Candidatos Indicados Por o Acionista Nao Controlador Para O Ca http://t.co/0UddVivQ3V",
+          "realization": {
+            "Arg0": "Indicados Por o Acionista Nao Controlador",
+            "Arg1": "Candidatos",
+            "Arg2": null,
+            "Arg3": "Para O Ca",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": "root",
+            "Arg2": null,
+            "Arg3": "obl",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446349257180606464l",
+          "text": "A Petr4 sobe porque há rumor que candidatos de a oposição estão ganhando terreno e não porque vão melhorar a gestão de ela #EuAcreditoNoMantega",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "candidato",
+            "Arg2": "de a oposição",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460756892646907904l",
+          "text": "$RSID3 - Rossi Resid ( rsid-nm ) - Indicacao De Candidato A Membro De o Conselho De Admin . http://t.co/XAZrrT0xHk",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Candidato",
+            "Arg2": null,
+            "Arg3": "A Membro De o Conselho De Admin",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449551026488893440l",
+          "text": "$CIEL3 - Cielo ( ciel-nm ) - Material A Disposicao ( indicacao De Candidatos A Membros De o Ca http://t.co/3GExefQijD",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Candidatos",
+            "Arg2": null,
+            "Arg3": "A Membros De o Ca",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456080818830864384l",
+          "text": "$PDGR3 - Pdg Realt ( pdgr-nm ) - Material A Disposicao ( indicacao De Candidatos Para O Ca ) http://t.co/8KQgdZbmKD",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de Candidatos",
+            "Arg2": null,
+            "Arg3": "Para O Ca",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 5,
+          "parataxis": 1,
+          "root": 3
+        },
+        "Arg2": {
+          "nmod": 3,
+          "obl": 1
+        },
+        "Arg3": {
+          "nmod": 5,
+          "obl": 2
+        },
+        "Arg0": {
+          "amod": 3
+        }
+      }
+    }
+  ]
+}

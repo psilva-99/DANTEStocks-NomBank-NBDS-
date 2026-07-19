@@ -1,0 +1,651 @@
+{
+  "lemma": "leilão",
+  "lemma_base": "leilão",
+  "senses": [
+    {
+      "pt_roleset": "leilão.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "trade.01",
+      "english_roleset_source": "verb-trade.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/trade.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "seller"
+        },
+        {
+          "id": "Arg1",
+          "desc": "sold"
+        },
+        {
+          "id": "Arg2",
+          "desc": "highest bidder"
+        },
+        {
+          "id": "Arg3",
+          "desc": "price paid"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_446990945779986432l",
+          "text": "e tem início o leilão de a #PETR4 ! De olho em a abertura . =)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444482105675104256l",
+          "text": "$DASA3 - Dasa ( dasa-nm ) - Aquisicao De Acoes Remanescentes De o Leilao http://t.co/0HuaywrCqa",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Ações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "case",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444077459664023552l",
+          "text": "$DASA3 - Dasa ( dasa-nm ) - Fato Relevante - Resultado Final Leilao Opa http://t.co/tE2KAm5lnC",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Opa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461484549030297600l",
+          "text": "Hoje tem leilão emergencial de energia , que depende largamente de ELET6 . Boa oportunidade para fechar contratos estáveis e de margem maior .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de energia",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462198318102482945l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Leilao De Energia http://t.co/8kHVf6iVwI",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Energia",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456479295968272384l",
+          "text": "#CPFE3 - CPFL fecha contrato de energia de Serra de a Mesa e não disputará leilão A-0 - http://t.co/Hk3v5n3Xap",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "A-0",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "det",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459037552989966336l",
+          "text": "$PETR3 - Leilao De Petrq87 ( petr3 ) Ate 15:35 H - Oscilacao Maxima Permitida http://t.co/RgMJZcPtfT",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Petrq87 ( petr3 )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456159880961744896l",
+          "text": "OIBR4 foi para o leilão de fechamento caindo mais de 10 % ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de fechamento",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462323742912557057l",
+          "text": "OIBR4 vai explodir em o leilão .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443480227277455360l",
+          "text": "@ferrisss ML desovou lote de 100 milha em a petr4 em o leilao , simplesmente 3 vezes o lote vendido durante todo o pregao",
+          "realization": {
+            "Arg0": "ML",
+            "Arg1": "lote de 100 milha",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451813351711334400l",
+          "text": "bonito ver o bradescão e o itaú brigando com o Morgan Stanley e o Credit Suiss em o leilão final de a ABEV3 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "final de a ABEV3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442029907129143297l",
+          "text": "#vale5 encerrado em o leilão 27,09 Loss ( - 0,96 % )",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447100306728681472l",
+          "text": "petr4 saindo em o leilão",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453631123914899457l",
+          "text": "@ferrisss Epa ganhei em a Petr4 hoje duas compras uma em 15,84 venda 16,02 e outra compra 15,9 venda em o leilao .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461596679620542464l",
+          "text": "#PETR4 leilão maluquinho ! ! !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451811019154010112l",
+          "text": "Goll4 quase 6 % de alta hj com a bolsa caindo , piores , CYre3 - 5,21 e Rsid3 - 4,86 até o leilão",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462319584553758723l",
+          "text": "#bovespa #oibr4 Meu Senhor Todo-Poderoso que leilão é esse ? ? ô.Ô",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441602347777925121l",
+          "text": "@danielzatta que nem , to em vale5 agora .. comprei a 28,2 .. stop de perda em 28,1 ... e alvo em 28,98 .. ou levar ate o leilao de hoje ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449261548754972672l",
+          "text": "#BRFS3 - O leilão por a divisão de lácteos de a BRF começou - http://t.co/fewoACB7aD",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "por a divisão de lácteos de a BRF",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447099598587572224l",
+          "text": "leilão de a #PETR4 tá bonito , R$ 17.2 ! ! ! o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a #PETR4",
+            "Arg2": null,
+            "Arg3": "R$ 17.2",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nummod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451871894732423169l",
+          "text": "Sobre o leilao de pre abertura eu compro efetivamente uma ação ex. petr3 ( live at http://t.co/Gmj7qMwiiw )",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443394009567088640l",
+          "text": "Sobre a saída de #LLXL3 de o IBOV , lembram de o efeito ' zé mané ' de a ult vez ? Então , não achem voces que a LLX vai afundar em o leilão de a saída .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443760585290027008l",
+          "text": "$PETR3 - Leilao De Petrp73 ( petr3 ) Ate 11:52h - Oscilacao Maxima Permitida http://t.co/Se9c4kzLDX",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Petrp73 ( petr3 )",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463669474844233728l",
+          "text": "Ações PCAR4 ainda em leilão de abertura indicam queda de mais de 4 % ... Vamos garimpar ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Ações PCAR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451703359612157952l",
+          "text": "#PETR4 por R$ 16,00 em o leilão ? Caraca ... o fechamento ajustado - por causa de o JCP - de ontem foi em os R$ 15,57 ... o.O",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "#PETR4",
+            "Arg2": null,
+            "Arg3": "por R$ 16,00",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "root",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461596119689342976l",
+          "text": "o leilão de #PETR4 tá bem agradável para o vendido ... ( R$ 18,90 em o momento , mas tava em R$ 33,00 até agora há há ... o.O )",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de #PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_462318215440642049l",
+          "text": "pô , de novo leilão de a #PETR4 começando em os R$ 33 ? ! ! ? ! ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a #PETR4",
+            "Arg2": null,
+            "Arg3": "33",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nummod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461467831213629440l",
+          "text": "Leilão de energia , fala de presidente de a Petrobras , Vale e mais 5 movimentam radar : Graça Fo ... http://t.co/6nFS1FZVJK #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de energia",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444462050371461120l",
+          "text": "Bom dia a todos ... olhem só o leilão em a #CSNA3 ! Vai abrir com forte alta .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em a #CSNA3",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453267806331891712l",
+          "text": "Fim de o leilão em a #bovespa #petr4 alta de 6,61 % em a máxima de o dia , #vale5 alta de 1,93 % e #bbas3 alta de 5,64 % , #ibov alta de 2,1 %",
+          "realization": {
+            "Arg0": "em a #bovespa",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453268042580262912l",
+          "text": "RT @Fontes_ : Fim de o leilão em a #bovespa #petr4 alta de 6,61 % em a máxima de o dia , #vale5 alta de 1,93 % e #bbas3 alta de 5,64 % , #ibov alta de 2 …",
+          "realization": {
+            "Arg0": "em a #bovespa",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449531461797154816l",
+          "text": "Parece que VALE5 vai abrir forte . Em o leilão de abertura tá a 28,16 .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": "tá a 28,16"
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": "parataxis"
+          }
+        },
+        {
+          "sent_ID": "dante_01_462314687338917888l",
+          "text": "só eu que tô curioso pra ver o comportamento ( e o volume ) de PETR4 e VALE5 em o leilão de fechamento de hoje ? =)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de PETR4 e VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 18,
+          "case": 1,
+          "det": 1,
+          "root": 1
+        },
+        "Arg0": {
+          "nsubj": 1,
+          "nmod": 2
+        },
+        "Arg3": {
+          "nummod": 2,
+          "nmod": 1
+        },
+        "Arg4": {
+          "parataxis": 1
+        }
+      }
+    }
+  ]
+}

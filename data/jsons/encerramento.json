@@ -1,0 +1,117 @@
+{
+  "lemma": "encerramento",
+  "lemma_base": "encerramento",
+  "senses": [
+    {
+      "pt_roleset": "encerramento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "closure.01",
+      "english_roleset_source": "verb-close.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/closure.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "person doing the closing"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing closing"
+        },
+        {
+          "id": "Arg2",
+          "desc": "anti-beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_442999412265320448l",
+          "text": "$DASA3 - Dasa ( dasa-nm ) - Fato Relevante Comunicado Cromossomo Prazo De Encermto . De a Opa http://t.co/uVUVxbGicB",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De a Opa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "parataxis",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453583096823443456l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Encerramento De a Licenca De o Diretor De Distribuicao http://t.co/t0zHiXiVwN",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De a Licenca De o Diretor De Distribuicao",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_463297321254809600l",
+          "text": "$PETR3 - Petrobras ( petr ) - encer. de as Inscricoes De o Plano De Incentivo Deslig. Voluntario http://t.co/pmJ0jol3wY",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de as Inscricoes De o Plano De Incentivo Deslig. Voluntario",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441236209134993410l",
+          "text": "$MRFG3 - Marfrig ( mrfg-nm ) - encerramento Prazo De Preferencia / inicio De o Periodo De Sobras http://t.co/tWzEE1HdrT",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Prazo De Preferencia",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "parataxis": 1,
+          "nmod": 2,
+          "amod": 1
+        }
+      }
+    }
+  ]
+}

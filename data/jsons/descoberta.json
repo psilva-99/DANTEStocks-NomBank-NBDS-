@@ -1,0 +1,214 @@
+{
+  "lemma": "descoberta",
+  "lemma_base": "descoberta",
+  "senses": [
+    {
+      "pt_roleset": "descoberta.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "discovery.01",
+      "english_roleset_source": "verb-discover.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/discovery.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "finder"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing found, discovery"
+        },
+        {
+          "id": "Arg2",
+          "desc": "found for, beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": "attribute on arg1"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469952216032620544l",
+          "text": "OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente descoberta de a Petr4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "gigantes Libra e Franco",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "appos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469952216032620544l",
+          "text": "OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente descoberta de a Petr4",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a Petr4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_453546592155738113l",
+          "text": "RT @reminiscences : Sugestao para Graça Foster melhorar Petrobras #Petr4 : fazer campanha contra Dilma … melhor que anunciar descobertas de re …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de re",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod:wtrunc",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444116429194162176l",
+          "text": "#Petrobrás anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a exploração de o fisiologismo em a bacia de as almas . #PETR4",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": "de nova jazida de #propina",
+            "Arg2": null,
+            "Arg3": "em o pré-sal",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444118685725507584l",
+          "text": "RT @ppaulovagner : #Petrobrás anuncia descoberta de nova jazida de #propina em o pré-sal e aumento de a exploração de o fisiologismo em a bacia de as …",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": "de nova jazida de #propina",
+            "Arg2": null,
+            "Arg3": "em o pré-sal",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444119089167212544l",
+          "text": "RT @ppaulovagner : #Petrobrás anuncia dscberta d nova jazida d #propina n pré-sal e aumento d exploraç d fisiologismo n bacia d almas . #PETR4",
+          "realization": {
+            "Arg0": "#Petrobrás",
+            "Arg1": "de nova jazida de #propina",
+            "Arg2": null,
+            "Arg3": "em o pré-sal",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469966875737473024l",
+          "text": "RT @Adriano3Luis : OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente d …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "gigantes Libra e Franco",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "appos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469966875737473024l",
+          "text": "RT @Adriano3Luis : OGX tem 40 % de Piapara , pré sal , Bloco BS-4 . Localiza - se próximo a as descobertas gigantes Libra e Franco , e Tb a recente d …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "gigantes Libra e Franco",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "appos",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444081961909633024l",
+          "text": "$PETR3 - Petrobras ( petr ) - Comprova Descoberta Em Aguas Profundas Em a Bacia Potiguar http://t.co/3JseOl3iVW",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Em Aguas Profundas",
+            "Arg2": null,
+            "Arg3": "Em a Bacia Potiguar",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": "nmod",
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "appos": 3,
+          "nmod": 4,
+          "nmod:wtrunc": 1,
+          "amod": 1
+        },
+        "Arg0": {
+          "nsubj": 3
+        },
+        "Arg3": {
+          "nmod": 4
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "lemma": "acesso",
+  "lemma_base": "acesso",
+  "senses": [
+    {
+      "pt_roleset": "acesso.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "access.01",
+      "english_roleset_source": "verb-access.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/access.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "accessor"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing accessed"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_464089554719215617l",
+          "text": "Vale diz que acesso de Valemax a a China é desejável , mas não necessário : Os navios , com capac ... http://t.co/DUDYluUL6A #infomoney#vale5",
+          "realization": {
+            "Arg0": "Valemax",
+            "Arg1": "China",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nmod": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

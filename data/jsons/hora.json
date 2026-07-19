@@ -1,0 +1,226 @@
+{
+  "lemma": "hora",
+  "lemma_base": "hora",
+  "senses": [
+    {
+      "pt_roleset": "hora.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "hour.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/hour.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "action"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_451860438641561600l",
+          "text": "Hora de a troca de papéis . A ordem de ALLL3 e BVMF3 equivale a ' vender a mercado ' , isto é , sairá por o preço de o ... http://t.co/gqf12W4XnP",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "troca de papéis",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448806475805122560l",
+          "text": "Piores ações de março se descolaram muito de o índice , é hora de comprar ? : As cinco maiores qu ... http://t.co/Cf9XCzdiN1 #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de comprar",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_464425177833803777l",
+          "text": "Hora de comprar mais PETR4 RT @JornalOGlobo : Ações de a Petrobras caem mais de 3 % e derrubam Bolsa . http://t.co/LJluyesRk5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de comprar",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443757704147120128l",
+          "text": "#BBAS3.SA anunciou hoje #JSCP em a #BOVESPA . Hora de manter posição , cancelei minhas vendas .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de manter posição",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452110212363997184l",
+          "text": "@Live_Trade tenho um ponto a fazer que é sobre a petr4 , de aqui a pouco será a hora de ela desabar , e o mini junto , é possível em a sua análise ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ela desabar",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460807375470231553l",
+          "text": "GOLL4 . 40 zerando posição vendida . por o sim por o não , hora de colocar em o bolso .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de colocar em o bolso",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_443052651430031360l",
+          "text": "Está em a hora de pensar em a PETR3 e em a PETR4 com mais carinho ?",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de pensar em a PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444563909958434816l",
+          "text": "@ferrisss Quando deu call não entrei em ccx3 , mas agora acho que talvez esteja em a hora , vc ainda tem ? E alll3 , ouvi que pode voar ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_452093340193157121l",
+          "text": "@DuctorMarcus ainda bem que eu estava comprado em #vale5 e aproveitei toda essa alta . Bora pensar em a melhor hora de realizar @lambari_trader",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de realizar",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "acl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461128955505168384l",
+          "text": "#suzb5 ainda em queda , mas esboça alta em essa manha . #ibov parece animado com efeito Lula , então parece ser hora de ir as compras",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de ir as compras",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 1,
+          "acl": 4,
+          "obj": 1,
+          "obl": 3
+        }
+      }
+    }
+  ]
+}

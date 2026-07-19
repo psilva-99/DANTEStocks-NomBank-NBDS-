@@ -1,0 +1,97 @@
+{
+  "lemma": "aditivo",
+  "lemma_base": "aditivo",
+  "senses": [
+    {
+      "pt_roleset": "aditivo.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "amendment.01",
+      "english_roleset_source": "verb-amend.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/amendment.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "amender, corrector"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing amended"
+        },
+        {
+          "id": "Arg2",
+          "desc": "beneficiary"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_469457551306665984l",
+          "text": "Notas gerais A PETROBRAS ( PETR4 ) esclareceu ontem que todos os contratos e aditivos para a conturbada construção ... http://t.co/DTTsUJsh3i",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "para a conturbada construção",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446266855536492544l",
+          "text": "$MRFG3 - Marfrig ( mrfg-nm ) - Fato Relevante - Primeiro Aditivo A o Acordo De Acionistas http://t.co/jBJzeY5U5V",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "A o Acordo De Acionistas",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446975526323109888l",
+          "text": "$CCRO3 - Ccr Sa ( ccro-nm ) - Fato Relevante - Assinatura De o Aditivo De o Acrodo De Acionista http://t.co/xzQyZPPbBL",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Acrodo De Acionista",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 3
+        }
+      }
+    }
+  ]
+}

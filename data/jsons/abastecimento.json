@@ -1,0 +1,64 @@
+{
+  "lemma": "abastecimento",
+  "lemma_base": "abastecimento",
+  "senses": [
+    {
+      "pt_roleset": "abastecimento.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "supply.01",
+      "english_roleset_source": "verb-supply.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/supply.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "provider"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing provided"
+        },
+        {
+          "id": "Arg2",
+          "desc": "entity provided for (beneficiary)"
+        },
+        {
+          "id": "Arg3",
+          "desc": "value"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_459034935748485120l",
+          "text": "Sabesp (SBSP3): Responsável por o abastecimento de 47% de a região metropolitana de São Paulo, o Sistema Cantareira... http://t.co/xs8ji7To5z",
+          "realization": {
+            "Arg0": "o Sistema Cantareira",
+            "Arg1": "abastecimento de 47% de a região metropolitana de São Paulo",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "flat:name": 1
+        },
+        "Arg1": {
+          "flat:name": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+{
+  "lemma": "daytrade",
+  "lemma_base": "daytrade",
+  "senses": [
+    {
+      "pt_roleset": "daytrade.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "trade.01",
+      "english_roleset_source": "verb-trade.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/trade.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, entity trading"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing being trade"
+        },
+        {
+          "id": "Arg2",
+          "desc": "other exanger"
+        },
+        {
+          "id": "Arg3",
+          "desc": "other item in exchange, price or premium, traded for or at"
+        },
+        {
+          "id": "Arg4",
+          "desc": "beneficiary"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_441608336748720128l",
+          "text": "BBDC4 Linda WW em o Daytrade , mesmo entrando atrasado ... e saindo cedo .. \";D\" http://t.co/WQPK5B1lNL",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "BBDC4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "root",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461179533669187584l",
+          "text": "@Live_Trade Marcos , qual o objetivo daytrade de OIBR4 ? Abs",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de OIBR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449619485667123200l",
+          "text": "é quem entrou vendido , day-trade em PETR4 se deu bem !",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "em PETR4",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449250160464625664l",
+          "text": "Day trade VALE5 Previsto e evitado zona de alto risco e falta de liquidez absurda 27-03-14 http://t.co/FZV3HPrEG3",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_448159009464664064l",
+          "text": "Day trade VALE5 Espetacular – 6 prejuízos previstos e evitados ( - 1,6 % de perda evitada ! ) 24/03/2014 http://t.co/OOP3CcpEDF",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "VALE5",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "root": 1,
+          "nmod": 4
+        }
+      }
+    }
+  ]
+}

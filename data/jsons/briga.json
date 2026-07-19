@@ -1,0 +1,214 @@
+{
+  "lemma": "briga",
+  "lemma_base": "briga",
+  "senses": [
+    {
+      "pt_roleset": "briga.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "fight.01",
+      "english_roleset_source": "verb-fight.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/fight.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "first fighter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "second fighter, if separate"
+        },
+        {
+          "id": "Arg2",
+          "desc": "spoils"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_444463565375033344l",
+          "text": "#petr4 na briga com 12,94",
+          "realization": {
+            "Arg0": "#petr4",
+            "Arg1": null,
+            "Arg2": "12.94",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449601961852403713l",
+          "text": "#petr4 agora que vi, o King Kong tem briga em 15,35",
+          "realization": {
+            "Arg0": "King Kong",
+            "Arg1": null,
+            "Arg2": "15.35",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449627192734265344l",
+          "text": "Olha o Post!!! RT @Live_Trade: #petr4 agora que vi, o King Kong tem briga em 15,35",
+          "realization": {
+            "Arg0": "King Kong",
+            "Arg1": null,
+            "Arg2": "15.35",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "flat:name",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461505776595783680l",
+          "text": "@Andresmoraes nossa querida e amada #PETR4 em a briga por a confirmação de o rompimento de os R$ 16,60 hein ? Essa promete ser de as boas . =)",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": null,
+            "Arg2": "por a confirmação de o rompimento de os R$ 16,60",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461510589626728448l",
+          "text": "RT @clubedopairico : @Andresmoraes nossa querida e amada #PETR4 em a briga por a confirmação de o rompimento de os R$ 16,6 hein ? Essa promete ser …",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": null,
+            "Arg2": "confirmação de o rompimento",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461510858632626176l",
+          "text": "@clubedopairico : @Andresmoraes nossa querida e amada #PETR4 em a briga por a confirmação de o rompimento . Mercado amarrado .",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": null,
+            "Arg2": "confirmação de o rompimento",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446999581071790081l",
+          "text": "e olha lá a #PETR4 em a briga de os R$ 13,5 ... ,)",
+          "realization": {
+            "Arg0": "#PETR4",
+            "Arg1": null,
+            "Arg2": "13.5",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "obj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458619519691685888l",
+          "text": "GFSA3 ... 227 com um ritmo muito forte em a venda . Se permanecer assim será difícil o papel fechar em o azul hoje . Briga pesada : 227 x 40 .",
+          "realization": {
+            "Arg0": "227",
+            "Arg1": "40",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450996130533613569l",
+          "text": "olho em os 15 de o king Kong #petr4 15,54 pode ter briga boa ...",
+          "realization": {
+            "Arg0": "#petr4",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 4,
+          "flat:name": 2,
+          "obj": 1,
+          "nmod": 2
+        },
+        "Arg2": {
+          "nmod": 3
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "lemma": "ajuste",
+  "lemma_base": "ajuste",
+  "senses": [
+    {
+      "pt_roleset": "ajuste.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "adjustment.01",
+      "english_roleset_source": "verb-adjust.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/adjustment.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "causer of transformation"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing changing"
+        },
+        {
+          "id": "Arg2",
+          "desc": "end state"
+        },
+        {
+          "id": "Arg3",
+          "desc": "start state"
+        },
+        {
+          "id": "Arg4",
+          "desc": "purpose, reason for adjustment"
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_467283107109175296l",
+          "text": "$MRVE3 - Mrv ( mrve-nm ) - Pagamento De Dividendo / Ajuste Em o Valor http://t.co/OLYAVgQz1Q",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "Em o Valor",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_444567446595198976l",
+          "text": "Posições que ja alcançaram realização parcial , ajuste em os stops ! vale5 linda a venda ! hehe http://t.co/bAFgR9MAfV",
+          "realization": {
+            "Arg0": "Posições que ja alcançaram realização parcial",
+            "Arg1": "os stops",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "amod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 2
+        },
+        "Arg0": {
+          "amod": 1
+        }
+      }
+    }
+  ]
+}

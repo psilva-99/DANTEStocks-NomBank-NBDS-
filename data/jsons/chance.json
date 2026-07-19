@@ -1,0 +1,202 @@
+{
+  "lemma": "chance",
+  "lemma_base": "chance",
+  "senses": [
+    {
+      "pt_roleset": "chance.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "chance.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/chance.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "experiencer/agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "theme/action"
+        },
+        {
+          "id": "Arg2",
+          "desc": "value"
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_445998715699220480l",
+          "text": "PETR4 Petrobras repica em a Bolsa e dá uma chance pra galera ganhar unzinho . Será coincidência o papel subir logo depois de o exercício ? Heeheh",
+          "realization": {
+            "Arg0": "pra galera",
+            "Arg1": "ganhar unzinho",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obj",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_446694812100460544l",
+          "text": "Cuidado com VALE5 . IMA-crash de a Vale está ficando muito alto . Grande chance de queda forte em os próx. 2 dias , http://t.co/j9Jxow4GS6",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de queda forte em os próx. 2 dias",
+            "Arg2": "Grande",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_454332111319998466l",
+          "text": "#VALE5 abaixo de 29,5 tem grandes chances de desabar . #INDJ14 agradece !",
+          "realization": {
+            "Arg0": "#VALE5",
+            "Arg1": "de desabar - acl",
+            "Arg2": "grandes",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "case",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461163872431665152l",
+          "text": "RT @lambari_trader : @vellozors @ferrisss Dilma não se reelege . A Bolsa já está precificando isso . Olha PETR4 e BBAS3 . A única chance de o PT …",
+          "realization": {
+            "Arg0": "de o PT",
+            "Arg1": null,
+            "Arg2": "única",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod:wtrunc",
+            "Arg1": null,
+            "Arg2": "advmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459014681404137472l",
+          "text": "De o jeito que Rosa Weber é , há mais chances de ser CPI ampla e virar aquela PIZZA e PT se beneficia … Petr4 vai pra baixo … vamos ver …",
+          "realization": {
+            "Arg0": "e PT se beneficia",
+            "Arg1": "de ser CPI ampla",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "root",
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_459089851821096960l",
+          "text": "RT @reminiscences : De o jeito que Rosa Weber é , há mais chances de ser CPI ampla e virar aquela PIZZA e PT se beneficia … Petr4 vai para baixo … …",
+          "realization": {
+            "Arg0": "e PT se beneficia",
+            "Arg1": "de ser CPI ampla",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "root",
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461152552814669824l",
+          "text": "@vellozors @ferrisss Dilma não se reelege . A Bolsa já está precificando isso . Olha PETR4 e BBAS3 . A única chance de o PT é o volta Lula .",
+          "realization": {
+            "Arg0": "de o PT",
+            "Arg1": null,
+            "Arg2": "única",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": null,
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441961900067524608l",
+          "text": "Vou ' monitorar ' a operação aqui por o acho que temos boa chance de ter um movimento direcional forte em a PETR4 ..",
+          "realization": {
+            "Arg0": "temos",
+            "Arg1": "de ter um movimento direcional forte em a PETR4",
+            "Arg2": "boa",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "ccomp",
+            "Arg1": "obl",
+            "Arg2": "amod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 2,
+          "nmod:wtrunc": 1,
+          "root": 2,
+          "nmod": 1,
+          "ccomp": 1
+        },
+        "Arg1": {
+          "obj": 1,
+          "nmod": 1,
+          "case": 1,
+          "amod": 2,
+          "obl": 1
+        },
+        "Arg2": {
+          "amod": 4,
+          "advmod": 1
+        }
+      }
+    }
+  ]
+}

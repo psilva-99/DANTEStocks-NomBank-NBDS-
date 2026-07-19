@@ -1,0 +1,151 @@
+{
+  "lemma": "membro",
+  "lemma_base": "membro",
+  "senses": [
+    {
+      "pt_roleset": "membro.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "member.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/member.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "whole"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_450605466079723520l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Material A Disp. ( indic. De Candidatos A Membros De o Ca ) http://t.co/myIM01vKEt",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Ca",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450979739944382464l",
+          "text": "$ELET3 - Eletrobras ( elet-n1 ) - Material A Disposicao ( candidatos A Membros De o Ca E Cf ) http://t.co/l9Z7Qm4mAV",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Ca E Cf",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_460756892646907904l",
+          "text": "$RSID3 - Rossi Resid ( rsid-nm ) - Indicacao De Candidato A Membro De o Conselho De Admin . http://t.co/XAZrrT0xHk",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Conselho De Admin",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441235701271912448l",
+          "text": "$BRFS3 - Brf Sa ( brfs ) - Renuncia E Eleicao De Membros De o C.a. http://t.co/f41iizYOak",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o C.a.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_441274491155787776l",
+          "text": "$BRFS3 - Brf Sa ( brfs-nm ) - Renuncia E Eleicao De Membros De o C.a. ( complemento ) http://t.co/0uRQWZmhv5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o C.a.",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449551026488893440l",
+          "text": "$CIEL3 - Cielo ( ciel-nm ) - Material A Disposicao ( indicacao De Candidatos A Membros De o Ca http://t.co/3GExefQijD",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De o Ca",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 6
+        }
+      }
+    }
+  ]
+}

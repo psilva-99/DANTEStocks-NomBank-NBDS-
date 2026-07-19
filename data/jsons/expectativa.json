@@ -1,0 +1,211 @@
+{
+  "lemma": "expectativa",
+  "lemma_base": "expectativa",
+  "senses": [
+    {
+      "pt_roleset": "expectativa.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "expectation.01",
+      "english_roleset_source": "verb-expect.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/expectation.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "expecter"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing expected"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_450971158243205120l",
+          "text": "Ontem o minério de ferro subiu 4 % , alcançando os US$ 116,8 . Expectativa é de que sejam anunciados estímulos em a economia chinesa . #VALE5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "é de que sejam anunciados estímulos em a economia chinesa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451397747661635584l",
+          "text": "RT @chrinvestor : Ontem o minério de ferro subiu 4 % , alcançando os US$ 116.8 . Expectativa é de que sejam anunciados estímulos em a economia ch …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "é de que sejam anunciados estímulos em a economia chinesa",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456433849132920832l",
+          "text": "RT @garimpodeacoes : Localiza ( RENT3 ) tem lucro recorde e mantém expectativa positiva p/ o corrente ano . Agora sobe em a Bovespa 2,84 % mas em a máx …",
+          "realization": {
+            "Arg0": "Localiza ( RENT3 )",
+            "Arg1": "positiva p/ o corrente ano",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": "obl",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449538358717714432l",
+          "text": "Em a trave … 49.984 . Mas tá estável , como indicava o iBOV futuro . VALE5 frustrou minha expectativa . Bão tamém …",
+          "realization": {
+            "Arg0": "minha",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "det",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451062551229775872l",
+          "text": "Não é que o KingKong #PETR4 está se segurando com a expectativa de a pesquisa de sábado ...",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de a pesquisa de sábado",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_469213585533845506l",
+          "text": "Mesmo c/ expectativa pessimista s/ pesquisa IBOPE q deve ser divulgada amanhã , ações de a Petro fecharam em alta : PETR3 , + 1,36 % e PETR$ + 0,92 %",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "pessimista",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450688462857834496l",
+          "text": "Minério de ferro sobe 4 % em a China com expectativa de estímulo econômico : Cotações de a commodi ... http://t.co/gCQ5AkNoWz #infomoney #vale5",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de estímulo econômico",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_450721159739609088l",
+          "text": "RT @clickinv_VALE5 : Minério de ferro sobe 4 % em a China com expectativa de estímulo econômico : Cotações de a commodi ... http://t.co/gCQ5AkNoWz …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de estímulo econômico",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "amod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_442996770105470976l",
+          "text": "Marfrig ( MRFG3 ) – Divulgou seu resultado de o 4Q13 apresentando boa melhora com números acima de a expectativa . #VisãoAtiva",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "amod": 4,
+          "obl": 2,
+          "nmod": 1
+        },
+        "Arg0": {
+          "nsubj": 1,
+          "det": 1
+        }
+      }
+    }
+  ]
+}

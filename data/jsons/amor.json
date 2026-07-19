@@ -1,0 +1,57 @@
+{
+  "lemma": "amor",
+  "lemma_base": "amor",
+  "senses": [
+    {
+      "pt_roleset": "amor.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "love.01",
+      "english_roleset_source": "verb-love.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/love.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "lover, experiencer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "loved, cause"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_460034860225429504l",
+          "text": "Logo depois de os papéis PETR4 RT @arrowp : sim RT @UOLNoticias : Homem mais feliz de o mundo recomenda o amor como investimento mais seguro",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {}
+    }
+  ]
+}

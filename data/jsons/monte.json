@@ -1,0 +1,119 @@
+{
+  "lemma": "monte",
+  "lemma_base": "monte",
+  "senses": [
+    {
+      "pt_roleset": "monte.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "lot.01",
+      "english_roleset_source": null,
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/lot.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": null
+        },
+        {
+          "id": "Arg1",
+          "desc": "quantified"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": "secondary theme"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_445973204335882241l",
+          "text": "#VALE5 Opção VALED30 estava a 0,08 ai apareceu um monte vendendo a 0,07 e pegadinha .",
+          "realization": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "vendendo a 0,07",
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": "obl",
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_447068941912137728l",
+          "text": "#PETR4 querendo agulhar em o curto , 30min ... com um monte de outras indicações ... vamos ver ... ,)",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de outras indicações",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456157178563280896l",
+          "text": "Vc ñ respondeu um monte de perguntas Graça Foster .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bolsa ..",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de perguntas Graça Foster",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456157420415246336l",
+          "text": "RT @SouCalmo : Vc ñ respondeu um monte de perguntas Graça Foster .. Q venha a CPI .. Tanto ñ explicou , q as ações de a Petr4 despencam em a bols …",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de perguntas Graça Foster",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "flat:name",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg3": {
+          "obl": 1
+        },
+        "Arg1": {
+          "nmod": 1,
+          "flat:name": 2
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "lemma": "alavancagem",
+  "lemma_base": "alavancagem",
+  "senses": [
+    {
+      "pt_roleset": "alavancagem.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "leverage.01",
+      "english_roleset_source": "verb-leverage.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/leverage.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent"
+        },
+        {
+          "id": "Arg1",
+          "desc": "thing leveraged"
+        },
+        {
+          "id": "Arg2",
+          "desc": null
+        },
+        {
+          "id": "Arg3",
+          "desc": null
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_448880337746403328l",
+          "text": "#GOLL4 - Gol pretende reduzir alavancagem em 2014 - http://t.co/3NOyTwIUyu",
+          "realization": {
+            "Arg0": "Gol",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nsubj",
+            "Arg1": null,
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_449196737367146496l",
+          "text": "#petr4 = alta de 6,11 % a as 11:47 a o preço de R$ 15,27 , alavancagem de 20X em a CLEAR , MELHOR TRADE DE O ANO ! Parecido c/ dia de o Investment Grade",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "de 20X em a CLEAR",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg0": {
+          "nsubj": 1
+        },
+        "Arg1": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}

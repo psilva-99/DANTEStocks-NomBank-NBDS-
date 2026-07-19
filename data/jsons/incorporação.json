@@ -1,0 +1,139 @@
+{
+  "lemma": "incorporação",
+  "lemma_base": "incorporação",
+  "senses": [
+    {
+      "pt_roleset": "incorporação.01",
+      "pt_sense_index": 1,
+      "pt_sense_hint": 1,
+      "english_roleset": "fusion.01",
+      "english_roleset_source": "verb-blend.01",
+      "nombank_url": "https://nlp.cs.nyu.edu/meyers/nombank/nombank.1.0/frames/fusion.xml",
+      "roles": [
+        {
+          "id": "Arg0",
+          "desc": "agent, mixer"
+        },
+        {
+          "id": "Arg1",
+          "desc": "ingredient one"
+        },
+        {
+          "id": "Arg2",
+          "desc": "ingredient two"
+        },
+        {
+          "id": "Arg3",
+          "desc": "end product"
+        },
+        {
+          "id": "Arg4",
+          "desc": null
+        }
+      ],
+      "examples": [
+        {
+          "sent_ID": "dante_01_453974274265862144l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Age - 29/04/2014 - 15h00 / Aquisicao E Incorporacao De Cias http://t.co/tiGCF5BFg9",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Cias",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_461472300324626433l",
+          "text": "$RENT3 - Localiza ( rent-nm ) - Aquisicao De Quotas E Incorporacao De Subsidiarias http://t.co/nA90jlYptH",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Subsidiarias",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_456398217542766592l",
+          "text": "$CSAN3 - Cosan ( csan-nm ) - Fato Relevante - Aprovacao - proposta De Incorporacao - all E Rumo http://t.co/ctpNxKDEsC",
+          "realization": {
+            "Arg0": "proposta",
+            "Arg1": "all",
+            "Arg2": "Rumo",
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": "nmod",
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_451325000222789632l",
+          "text": "$ALLL3 - All Amer Lat ( alll-nm ) - fato Relevante / incorporacao De Acoes ( extensao De Prazo ) http://t.co/26tB9lsaHt",
+          "realization": {
+            "Arg0": null,
+            "Arg1": "De Acoes",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": null,
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        },
+        {
+          "sent_ID": "dante_01_458947674667241472l",
+          "text": "$ALLL3 - All Amer Lat ( alll-nm ) - Fato Relevante - Incorporacao De Acoes De a All Por a Rumo http://t.co/ZRKq9cRXet",
+          "realization": {
+            "Arg0": "Por a Rumo",
+            "Arg1": "De Acoes De a All",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          },
+          "syntax": {
+            "Arg0": "nmod",
+            "Arg1": "nmod",
+            "Arg2": null,
+            "Arg3": null,
+            "Arg4": null
+          }
+        }
+      ],
+      "syntactic_profile": {
+        "Arg1": {
+          "nmod": 5
+        },
+        "Arg0": {
+          "nmod": 2
+        },
+        "Arg2": {
+          "nmod": 1
+        }
+      }
+    }
+  ]
+}
