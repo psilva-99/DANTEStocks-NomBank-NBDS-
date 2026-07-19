@@ -1,0 +1,10 @@
+Carregando o Gabarito Unificado...
+
+--- Analisando arquivo: DANTEStocks-dev.conllup ---
+[OK] VALIDAÇÃO CONCLUÍDA SEM ERROS!
+
+--- Analisando arquivo: DANTEStocks-test.conllup ---
+[OK] VALIDAÇÃO CONCLUÍDA SEM ERROS!
+
+--- Analisando arquivo: DANTEStocks-train.conllup ---
+[OK] VALIDAÇÃO CONCLUÍDA SEM ERROS!
