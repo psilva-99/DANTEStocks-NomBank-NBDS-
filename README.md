@@ -24,6 +24,8 @@ Contém:
 
 ### 📝 Logs
 Contém:
+
+[Test](https://github.com/psilva-99/DANTEStocks-NomBank-NBDS-)
 - Os registros de execução (arquivos `.txt`) gerados durante o processamento em massa.
 - O detalhamento de operações de validação, correções estruturais aplicadas e possíveis erros rastreados pelo validador automático.
 
