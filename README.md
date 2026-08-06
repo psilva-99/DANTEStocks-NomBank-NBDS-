@@ -3,8 +3,6 @@ O DANTEStocks-NounBank (DSNB) é a versão do corpus [DANTEStocks](https://sites
 
 O objetivo deste repositório é abrigar os resultados da pesquisa "Anotação de papéis semânticos em tweets do mercado financeiro: definição de formatos e reutilização de recurso lexical", desenvolvido por Pedro Henrique Silva (UFSCar), no âmbito do projeto do POeTiSA.
 
-O DANTEStocks é um corpus de material textual compilado a partir do Twitter (atualmente X). As postagens foram coletadas automaticamente em 2014 com base nos tickers (códigos das ações) negociadas pelo índice IBOVESPA naquele ano. Este é o primeiro corpus em português de conteúdo gerado por usuários (user-generated content – UGC) com anotação seguindo o modelo Universal Dependencies (UD).
-
 ### Agradecimentos
 
 Este trabalho foi realizado no Centro de Inteligência Artificial da Universidade de São Paulo (C4AI), com apoio da Fundação de Amparo à Pesquisa do Estado de São Paulo (FAPESP, processo nº 2019/07665-4) e da IBM Corporation. O projeto também contou com o apoio do Ministério da Ciência, Tecnologia e Inovações, com recursos da Lei nº 8.248, de 23 de outubro de 1991, no âmbito do PPI-SOFTEX, coordenado pela Softex e publicado como Residência em TIC 13, DOU 01245.010222/2022-44.
@@ -15,6 +13,8 @@ Agradecemos, ainda, à FAPESP pelo auxílio financeiro específico a este trabal
 Para fins de citação em artigos e outros trabalhos acadêmicos, o trabalho aqui contido deve ser citado da seguinte forma:
 
 SILVA, P. H.; DI-FELIPPO, A. Metodologia de construção do DANTEStocks-NounBank. Relatório Técnico do ICMC XXX. São Carlos: Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo, 2026. 31p.
+
+### Estrutura dos conteúdos deste repositório:
 
 ### 📂 Data
 Contém:
