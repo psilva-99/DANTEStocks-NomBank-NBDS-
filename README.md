@@ -31,7 +31,7 @@ Contém:
 Contém:
 - A versão final dos arquivos convertidos e processados pelo sistema.
 - Os corpora divididos em treino, desenvolvimento e teste (arquivos `.conllup` do DANTEStocks).
-- A **última versão do corpus anotada** (a anotação semântica está codificada nas duas últimas colunas do formato CoNLL-U Plus: `NBDS:ROLESET` e `NBDS:ARGN`).
+- A **última versão do corpus anotada** (a anotação semântica está codificada nas duas últimas colunas do formato CoNLL-U Plus: `NBDS:ROLESET` e `NBDS:ARG`).
 
 ### 📝 Logs
 Contém:
