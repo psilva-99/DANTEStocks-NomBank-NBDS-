@@ -10,7 +10,7 @@ Agradecemos, ainda, à FAPESP pelo auxílio financeiro específico a este trabal
 
 ### Como Citar
 
-SILVA, P. H.; DI-FELIPPO, A. Metodologia de construção do DANTEStocks-NounBank. Relatório Técnico do ICMC XXX. São Carlos: Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo, 2026. 31p.
+SILVA, P. H.; DI-FELIPPO, A. Metodologia de construção do DANTEStocks-NounBank. Relatório Técnico do ICMC XXX. São Carlos: Instituto de Ciências Matemáticas e de Computação, Universidade de São Paulo, 2026. 32p.
 
 ### Estrutura dos conteúdos deste repositório:
 
